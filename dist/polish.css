@@ -3,7 +3,7 @@
 :root{
   --bg:#080e1a;--panel:#101b2bcc;--panel2:#172638cc;--line:#294055;--text:#f4f8fa;--muted:#a4b8c7;
   --accent:#71e9d9;--accentbg:#153e43;--danger:#ffad89;--input:#0c1928cc;
-  --glass:rgba(16,27,43,.55);--glass-border:rgba(113,233,217,.18);--glow:#71e9d966;
+  --glass:rgba(16,27,43,.55);--glass-border:rgba(113,233,217,.18);--glow:#71e9d966;--scan:#71e9d9;
   font-family:'DM Sans',Arial,sans-serif
 }
 
@@ -14,28 +14,74 @@ body{
   position:relative
 }
 body.light{
-  --bg:#e8f2f4;--panel:#fffffff2;--panel2:#eef7f8f0;--line:#b9d0d8;--text:#123041;--muted:#4d6776;
-  --accent:#0a7a72;--accentbg:#d4efe9;--input:#f7fbfc;--glass:rgba(255,255,255,.82);--glass-border:rgba(10,122,114,.2);--glow:#0a7a7244;
+  --bg:#e8f2f4;--panel:#fffffff2;--panel2:#eef7f8f0;--line:#b9d0d8;--text:#123041;--muted:#3d5666;
+  --accent:#0a7a72;--accentbg:#d4efe9;--input:#f7fbfc;--glass:rgba(255,255,255,.9);--glass-border:rgba(10,122,114,.22);--glow:#0a7a7244;
+  --scan:#0a7a72;
   background:
     radial-gradient(circle at 78% -10%,#c8e8e6 0,transparent 42%),
     radial-gradient(circle at 8% 40%,#d7e8f0 0,transparent 38%),
-    var(--bg)
+    var(--bg);
+  color:var(--text)
 }
 body.light aside{
-  background:linear-gradient(170deg,rgba(255,255,255,.92),rgba(232,244,246,.88) 72%);
-  box-shadow:14px 0 40px #0a304012
+  background:linear-gradient(170deg,rgba(255,255,255,.96),rgba(232,244,246,.94) 72%);
+  box-shadow:14px 0 40px #0a304012;
+  border-right-color:var(--line)
 }
+body.light .brand{color:var(--text)}
+body.light .brand>span:last-child{color:var(--muted)}
+body.light .navlabel{color:#5a7382}
+body.light nav button{color:#3d5666}
+body.light nav button:hover{background:#0a7a7212;color:var(--text)}
 body.light nav button.active{
+  color:#064e49;
   background:linear-gradient(90deg,#b8e4de,#d8f2ed88);
   box-shadow:inset 3px 0 var(--accent),0 0 18px #0a7a7222
 }
+body.light .sidebottom{border-top-color:var(--line);color:var(--text)}
+body.light .sidebottom p,body.light .quiet{color:var(--muted)}
+body.light header{
+  background:rgba(255,255,255,.92);
+  border-bottom:1px solid var(--line);
+  color:var(--text)
+}
+body.light header .muted{color:#5a7382}
+body.light header b{color:var(--text)}
+body.light .badge{color:#3d5666;border-color:var(--line);background:#f3faf9}
+body.light .icon{color:var(--text)}
+body.light .avatar{color:var(--accent);background:#e7f5f2;border-color:var(--line)}
+body.light .pageintro h1{color:var(--text)}
+body.light .pageintro p{color:var(--muted)}
+body.light .eyebrow{color:var(--accent)}
 body.light .robotcard{
-  background:radial-gradient(ellipse at 50% 55%,#9fd6d055,transparent 60%),var(--glass);
+  background:radial-gradient(ellipse at 50% 55%,#9fd6d040,transparent 60%),#ffffff;
   border-color:#8bbbb5
 }
+body.light .cardtitle{color:#123041}
+body.light .cardtitle .badge{color:#3d5666}
+body.light .robotfooter{color:var(--muted);border-top-color:var(--line)}
+body.light .robotcard svg{color:#5a7a88;filter:none}
+body.light .hotspot text,body.light .svgcaption{fill:#2a4554}
+body.light .hotspot path{stroke:#0a7a72;opacity:.85}
+body.light .svgcaption{fill:#3d5666}
+body.light .sessioncard,body.light .panel,body.light .insight{background:#ffffffee;color:var(--text)}
+body.light label{color:var(--muted)}
+body.light input,body.light select,body.light textarea{
+  background:#f7fbfc;color:var(--text);border-color:var(--line)
+}
+body.light .metrics>div{background:#fff;color:var(--text)}
+body.light .metrics span,body.light .metrics small{color:var(--muted)}
 body.light .metrics strong{color:var(--accent)}
 body.light .primary{color:#043833;box-shadow:0 8px 24px #0a7a7233}
+body.light .secondary{background:#e7f2f4;color:var(--text);border-color:var(--line)}
+body.light .smallbutton,body.light .vivademo{
+  background:#d4efe9;color:#064e49;border:1px solid #8bbbb5;box-shadow:none;animation:none
+}
 body.light .alert{background:#ffe8d8aa;border-color:#e0a07088;color:#8a3f1a}
+body.light .legend,body.light .micro,body.light footer{color:var(--muted)}
+body.light .symptom .slabel{color:var(--text)}
+body.light .ticker-track span{color:#3d5666}
+body.light #ambient .orb{opacity:.18}
 
 h1,h2,h3,.brand,.metrics strong{font-family:'Space Grotesk',sans-serif}
 
@@ -240,17 +286,36 @@ footer{font-size:11px}
   animation:dot-pulse 2s ease-in-out infinite
 }
 
-/* Robot motion (complements style.css) */
-#robot>path:first-of-type{stroke-dasharray:4 14;animation:arm-scan 5.5s linear infinite;opacity:.55}
+/* Robot motion — keep thick outline dashes; only recolor so they show on dark bg */
+#robot>path:first-of-type{
+  stroke:var(--scan,#71e9d9)!important;
+  stroke-width:43!important;
+  stroke-dasharray:3 18;
+  stroke-linejoin:round;
+  animation:arm-scan 5.5s linear infinite;
+  opacity:.72;
+  filter:drop-shadow(0 0 10px var(--scan,#71e9d9))
+}
+.hotspot path{stroke:var(--scan,#71e9d9);opacity:.75}
+.hotspot text,.svgcaption{fill:#c5d6e0}
 .hotspot circle:first-child{
   transform-box:fill-box;transform-origin:center;
-  animation:joint-breathe 2.8s ease-in-out infinite
+  animation:joint-breathe 2.8s ease-in-out infinite;
+  stroke:var(--scan,#71e9d9)
 }
 .hotspot:nth-of-type(2) circle:first-child{animation-delay:.6s}
 .hotspot:nth-of-type(3) circle:first-child{animation-delay:1.2s}
 .hotspot.alerted circle:first-child{
   animation:alert-pulse 1s ease-in-out infinite;
   stroke:var(--danger);fill:#663d2b;filter:drop-shadow(0 0 12px #ffad89)
+}
+body.light .hotspot text{fill:#1e3a48}
+body.light .svgcaption{fill:#3d5666}
+body.light #robot>path:first-of-type{
+  stroke:#0a7a72!important;
+  stroke-width:43!important;
+  filter:drop-shadow(0 0 6px #0a7a7266);
+  opacity:.55
 }
 
 .pipeline div{
