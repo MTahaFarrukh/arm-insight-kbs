@@ -37,10 +37,11 @@
 | Knowledge representation | JSON **frames + production rules** |
 | Inference | **Forward chaining** with Yes / No / Unknown / Conflict |
 | Explainability | Reasoning timeline (OBS → RULE → ACTION) |
-| Evaluation | **13 synthetic scenarios · 13/13 PASS** |
+| Dataset | **UCI Robot Execution Failures** (DOI 10.24432/C5M89N) · 463 episodes |
+| Evaluation | **13 synthetic scenarios · 13/13 PASS** (regression, not plant accuracy) |
 | Deploy | Vercel static host + optional Supabase sync |
 
-> **Disclaimer:** Cases are synthetic. Recommendations require qualified human review. This prototype does **not** control a live robot and makes **no** safety certification claim.
+> **Disclaimer:** ETL uses an **authentic UCI** robot-failure dataset; Evaluation-lab cases are synthetic regression. Recommendations require qualified human review. No live robot control / safety certification.
 
 ---
 
@@ -76,19 +77,36 @@ Official brief: [`course/KBS CCP.pdf`](course/KBS%20CCP.pdf) · Template: [`cour
 | **CPA-3** | Depth of knowledge | Domain rules + inference + validation suite |
 | **CPA-9** | Incomplete requirements | Explicit assumptions; no invented numeric plant thresholds |
 
-### Official deliverables checklist
+### Official deliverables → folders
 
-| # | Deliverable (CCP brief) | In this repo / package |
-|---|-------------------------|-------------------------|
-| 1 | **Dataset + source code** | `dist/knowledge_base.json`, `dist/sample_cases.json`, full `dist/` app, `serve.py`, `test*.mjs` |
-| 2 | **Report** (prescribed template) | [`docs/KBS_Robotic_Arm_CCP_Report.md`](docs/KBS_Robotic_Arm_CCP_Report.md) / [`.docx`](docs/KBS_Robotic_Arm_CCP_Report.docx) |
-| 2 | **Presentation** | [`docs/KBS_Robotic_Arm_CCP_Presentation.pptx`](docs/KBS_Robotic_Arm_CCP_Presentation.pptx) |
-| 3 | **Project demonstration** | [Live Vercel demo](https://arm-insight-kbs-dist.vercel.app/) · localhost `serve.py` · **▶ Viva demo** button |
-| 4 | **Viva defence** (analysis, KR, inference, implementation, KB, results) | Live demo + **▶ Viva demo** · Evaluation lab **13/13 PASS** · defend KR, inference, KB, results |
+| # | Official deliverable | Submit these paths |
+|---|----------------------|--------------------|
+| **1** | **Dataset + Source code** | **Dataset:** entire [`dataset/`](dataset/) (UCI raw + cleaned + `etl_cleaning.ipynb` + [`SOURCE.md`](dataset/raw/SOURCE.md)). **Source:** [`dist/`](dist/) (app + `knowledge_base.json`), `serve.py`, `test*.mjs`, [`supabase/`](supabase/), `vercel.json` (GitHub OK) |
+| **2** | **Report + Presentation** | [`docs/KBS_Robotic_Arm_CCP_Report.docx`](docs/KBS_Robotic_Arm_CCP_Report.docx) (+ PDF) · [`docs/KBS_Robotic_Arm_CCP_Presentation.pptx`](docs/KBS_Robotic_Arm_CCP_Presentation.pptx) |
+| **3** | **Project demonstration** | [Live demo](https://arm-insight-kbs-dist.vercel.app/) + `py -V:3.13 serve.py`; show **Dataset & ETL** + studio predictions |
+| **4** | **Viva** | Defend problem / KR / inference / implementation / dataset+KB / results — use [`VIVA_GUIDE_Roman_Urdu.md`](VIVA_GUIDE_Roman_Urdu.md) |
 
-Submit on **Google Classroom** per course deadline; export PDF from the Word report after filling student details & screenshots.
+### Rubric criteria (CCP) → where answered
 
-`docs/` holds **submission docs only** (report + presentation). Assignment brief/template live in `course/`.
+| Criterion | CLO / CPA | Project answer |
+|-----------|-----------|----------------|
+| 1 Understanding the problem | CLO 2 / CPA-9 | Stakeholders, incomplete brief, assumptions — report §4 + viva guide |
+| 2 Research & knowledge acquisition | CLO 1 / CLO 3 / CPA-3 | UCI dataset + UR concept sources + authored frames — `dataset/` + KB provenance |
+| 3 KBS approach & KR | CLO 1 / CLO 2 / CPA-2 | Frames + production rules; forward chaining justified — report §5 |
+| 4 Implementation & code | CLO 3 / CPA-3 | Working web KBS + ETL + tests 13/13 — `dist/` + `dataset/etl_cleaning.ipynb` |
+| 5 Report, PPT, docs | — | `docs/` + this README |
+
+### Instructor mark map (10)
+
+| Part | Marks | Where |
+|------|------:|-------|
+| Knowledge Base | 2 | `dist/knowledge_base.json` / Rule explorer |
+| Inference Engine | 2 | `dist/engine.mjs` |
+| Prediction / Implementation | 2 | Fault predictions + ETL batch predict |
+| ETL | 2 | `dataset/etl_cleaning.ipynb` + **Dataset & ETL** page |
+| Report + PPT | 2 | `docs/` |
+
+Submit on **Google Classroom**. Fill names/screenshots in Word → export PDF. `course/` = official brief/template only.
 
 ---
 
@@ -144,34 +162,54 @@ Symptoms  →  Forward chaining  →  Hypotheses + actions
 ## Demo sequence (viva-friendly)
 
 1. Open the live site (or localhost)
-2. Click **▶ Viva demo** — or manually load the **payload** scenario and open the reasoning timeline
-3. Show a **conflict** case (Operator Yes + Sensor No)
-4. Run **Evaluation lab** → confirm **13/13**
-5. Optional: **Sync with Supabase** and show Table Editor rows
+2. **Dataset & ETL** — cite UCI Robot Execution Failures (DOI 10.24432/C5M89N), show cleaning drops + batch predict
+3. Click **▶ Viva demo** — or load the **payload** scenario and open the reasoning timeline
+4. Show a **conflict** case (Operator Yes + Sensor No)
+5. Run **Evaluation lab** → confirm **13/13**
+6. Optional: **Sync with Supabase** and show Table Editor rows
+
+### Authentic dataset + ETL (marks)
+
+**Source:** [UCI Robot Execution Failures](https://archive.ics.uci.edu/dataset/92/robot+execution+failures) · DOI [10.24432/C5M89N](https://doi.org/10.24432/C5M89N) · CC BY 4.0 · **463** episodes
+
+```bash
+# Use standard CPython (not free-threaded 3.13t): py -V:3.13 …
+py -V:3.13 -m pip install pandas
+py -V:3.13 dataset/parse_uci_robot_failures.py
+py -V:3.13 dataset/run_etl_notebook_logic.py
+# Viva: open dataset/etl_cleaning.ipynb → Run All (pandas DataFrames)
+```
+
+Details: [`dataset/README.md`](dataset/README.md) · citation: [`dataset/raw/SOURCE.md`](dataset/raw/SOURCE.md)
 
 ---
 
-## Repository map
+## Repository map (= deliverables)
 
 ```text
 arm-insight-kbs/
-├── dist/                    # Deployed web app
-│   ├── index.html           # UI shell + splash / ticker
-│   ├── app.mjs              # Studio, cases, viva demo
-│   ├── engine.mjs           # diagnose() — forward chaining
-│   ├── evidence.mjs         # Claim merge / conflict
-│   ├── state.mjs            # Workspace validation
-│   ├── cloud.mjs            # Supabase sync
-│   ├── config.mjs           # Supabase URL + anon key
-│   ├── knowledge_base.json  # 8 faults · 19 symptoms
-│   ├── sample_cases.json    # 13 synthetic scenarios
-│   └── *.css                # Layout + glass motion UI
-├── supabase/schema.sql      # Cloud tables + RLS (demo)
-├── docs/                    # Report + presentation (submission)
-├── course/                  # CCP brief + report template
-├── serve.py                 # Local static server
-├── test*.mjs                # Node regression checks
-└── vercel.json              # Publishes dist/
+│
+├── dataset/                         # ★ DELIVERABLE 1 · DATASET
+│   ├── raw/SOURCE.md                #   UCI citation (DOI 10.24432/C5M89N)
+│   ├── raw/uci_robot_failures/      #   original LP1–LP5 .data
+│   ├── etl_cleaning.ipynb           #   pandas Extract→Clean→Map→Load
+│   ├── parse_*.py / run_etl_*.py    #   extract + CLI ETL
+│   └── cleaned/                     #   cleaned tables + ETL report
+│
+├── dist/                            # ★ DELIVERABLE 1 · SOURCE (app + KB)
+│   ├── knowledge_base.json          #   19 symptoms · 8 faults
+│   ├── engine.mjs · evidence.mjs    #   forward chaining + conflict
+│   ├── app.mjs · index.html         #   studio + Dataset & ETL page
+│   └── etl_*.json / prediction_*.json
+├── serve.py · test*.mjs · supabase/ · vercel.json
+│
+├── docs/                            # ★ DELIVERABLE 2 · Report + PPT
+│   ├── KBS_Robotic_Arm_CCP_Report.docx
+│   └── KBS_Robotic_Arm_CCP_Presentation.pptx
+│
+├── VIVA_GUIDE_Roman_Urdu.md         # ★ DELIVERABLE 3–4 prep
+├── README.md
+└── course/                          # official CCP brief + template (reference)
 ```
 
 ---
@@ -196,8 +234,10 @@ node test-evidence.mjs
 
 | Doc | Purpose |
 |-----|---------|
-| [docs/KBS_Robotic_Arm_CCP_Report.docx](docs/KBS_Robotic_Arm_CCP_Report.docx) | Report |
-| [docs/KBS_Robotic_Arm_CCP_Presentation.pptx](docs/KBS_Robotic_Arm_CCP_Presentation.pptx) | Presentation deck |
+| [docs/KBS_Robotic_Arm_CCP_Report.docx](docs/KBS_Robotic_Arm_CCP_Report.docx) | Report (Deliverable 2) |
+| [docs/KBS_Robotic_Arm_CCP_Presentation.pptx](docs/KBS_Robotic_Arm_CCP_Presentation.pptx) | Presentation (Deliverable 2) |
+| [VIVA_GUIDE_Roman_Urdu.md](VIVA_GUIDE_Roman_Urdu.md) | Full viva/demo script (Deliverable 3–4 prep) |
+| [dataset/README.md](dataset/README.md) | Dataset + ETL how-to |
 
 ---
 

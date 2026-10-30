@@ -1,0 +1,70 @@
+{
+  "pipeline": "Extract \u2192 Transform (clean + knowledge map) \u2192 Load",
+  "source": {
+    "name": "UCI Robot Execution Failures",
+    "doi": "10.24432/C5M89N",
+    "url": "https://archive.ics.uci.edu/dataset/92/robot+execution+failures",
+    "license": "CC BY 4.0",
+    "instances_raw": 463
+  },
+  "kb_version": "2.1",
+  "raw_file": "dataset/raw/uci_robot_failures_instances.csv",
+  "cleaned_csv": "dataset/cleaned/maintenance_logs_clean.csv",
+  "cleaning": {
+    "rows_in": 463,
+    "rows_out": 785,
+    "sensor_rows_kept": 451,
+    "rows_removed": 12,
+    "drop_breakdown": {
+      "incomplete_ft_window": 0,
+      "missing_class_or_features": 0,
+      "extreme_sensor_outlier": 4,
+      "duplicate": 8,
+      "unmapped_class": 0
+    },
+    "dropped": {
+      "incomplete_ft_window": 0,
+      "missing_class_or_features": 0,
+      "extreme_sensor_outlier": 4,
+      "duplicate": 8,
+      "unmapped_class": 0
+    },
+    "duplicates_removed": 8,
+    "kept": 451,
+    "steps": [
+      {
+        "step": 1,
+        "name": "Extract",
+        "detail": "Parse UCI LP1-LP5 .data into instance table (authentic robot F/T failures)."
+      },
+      {
+        "step": 2,
+        "name": "Clean incomplete windows",
+        "detail": "Drop episodes with incomplete 15-sample force/torque windows."
+      },
+      {
+        "step": 3,
+        "name": "Clean missing / outliers",
+        "detail": "Drop missing features and extreme sensor absmax outliers."
+      },
+      {
+        "step": 4,
+        "name": "Deduplicate",
+        "detail": "Remove duplicate sensor fingerprints."
+      },
+      {
+        "step": 5,
+        "name": "Knowledge map",
+        "detail": "Map UCI failure_class to KBS symptom evidence (documented)."
+      },
+      {
+        "step": 6,
+        "name": "Load",
+        "detail": "Write cleaned tables + prediction cases for forward-chaining."
+      }
+    ]
+  },
+  "prediction_case_count": 5,
+  "generated_at": "2026-10-30T04:10:57.724519+00:00",
+  "tool": "dataset/etl_cleaning.ipynb (pandas) on UCI Robot Execution Failures"
+}

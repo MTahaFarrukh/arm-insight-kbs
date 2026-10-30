@@ -22,7 +22,20 @@
 
 > Fill rows 2–5 with group members before final Classroom submission. Update names/rolls if different from the table above.
 
-This report describes the implemented web-based Knowledge-Based System (KBS) prototype, its synthetic evaluation, optional cloud persistence (Supabase), and public deployment (Vercel). The robot type, plant-specific alarm mappings, real costs and historical failure data were not supplied in the brief; non-manufacturer rules are therefore explicit educational assumptions. **No operational accuracy or safety certification is claimed.**
+This report describes the implemented web-based Knowledge-Based System (KBS) prototype with an explicit **ETL (Extract–Transform–Load) cleaning pipeline** on the authentic **UCI Robot Execution Failures** dataset (DOI 10.24432/C5M89N), rule-based **fault prediction**, synthetic evaluation scenarios for regression, optional cloud persistence (Supabase), and public deployment (Vercel). The robot type, plant-specific alarm mappings, real costs and historical failure data were not supplied in the brief; non-manufacturer rules are therefore explicit educational assumptions. **No operational accuracy or safety certification is claimed.**
+
+### Assessment mapping (as clarified with the instructor)
+
+| Component | Marks | Project evidence |
+|-----------|------:|------------------|
+| Knowledge Base | 2 | `dist/knowledge_base.json` — 19 symptoms, 8 fault frames (cause/action/provenance) |
+| Inference Engine | 2 | `dist/engine.mjs` — forward chaining, Unknown/Conflict handling, explanation trace |
+| Prediction / Implementation | 2 | UI predictions + batch predict from cleaned ETL cases |
+| ETL | 2 | `dataset/` raw → clean pipeline; **Dataset & ETL** page shows cleaning |
+| Report + Presentation | 2 | This report + `docs/*.pptx` |
+
+**Information flow taught in class:**  
+`DATASET → (ETL / cleaning) → INFORMATION → KNOWLEDGE BASE → INFERENCE → PREDICTION`
 
 ---
 
@@ -30,8 +43,8 @@ This report describes the implemented web-based Knowledge-Based System (KBS) pro
 
 The deliverable includes:
 
-- Source code (`dist/`, `serve.py`, automated tests)
-- Dataset / knowledge base (`dist/knowledge_base.json`, `dist/sample_cases.json`)
+- Source code (`dist/`, `serve.py`, automated tests, `dataset/` UCI ETL)
+- **Dataset** (raw + cleaned) under `dataset/` plus knowledge base / sample cases
 - This report (and presentation deck)
 - Executable demonstration (localhost and/or deployed URL)
 
@@ -215,29 +228,44 @@ A **reasoning timeline** lists OBS / RULE / ACTION steps. Case export includes o
 ### 5.6 System Architecture
 
 ```text
-[ Browser UI ]
-   index.html · style.css · polish.css · app.mjs
-        │
-        ├─► engine.mjs     forward chaining + trace + ranking
-        ├─► evidence.mjs   claim merge / validation
-        ├─► state.mjs      KB + workspace schema validation
-        ├─► knowledge_base.json / sample_cases.json
-        │
-        ├─► localStorage   always-on local workspace
-        └─► cloud.mjs ──► Supabase (optional shared sync)
-                           workspaces / cases / tickets
+DATASET (raw CSV, noisy)
+   │  ETL: Extract → Transform/Clean → Load
+   ▼
+INFORMATION (cleaned logs + prediction cases)
+   │
+   ▼
+KNOWLEDGE BASE (frames + production rules)
+   │
+   ▼
+INFERENCE ENGINE (forward chaining)
+   │
+   ▼
+PREDICTION (Supported/Possible faults + actions + trace)
 
-Static hosting: Vercel (dist/) or python serve.py on localhost
+[ Browser UI ]
+   Diagnostic studio · Dataset & ETL · Evaluation lab
+   engine.mjs · evidence.mjs · knowledge_base.json
+   localStorage · optional Supabase · Vercel / serve.py
 ```
 
 | Layer | Responsibilities |
 |-------|------------------|
-| Presentation | Diagnostic studio, robot map, guided mode, cases, maintenance board, rules, evaluation, motion UI |
-| Inference | Four-state rule evaluation, hazards, questions, trace |
+| ETL | UCI extract → clean → knowledge map → load + UI report |
+| Presentation | Studio, ETL page, cases, maintenance, rules, evaluation |
+| Inference / Prediction | Four-state rule evaluation, hazards, questions, trace |
 | Evidence | Source categories and conflict merge |
 | Knowledge | JSON frames/rules + 13 synthetic scenarios |
 | Persistence | localStorage + optional Supabase upsert/mirror |
 | Deployment | Vercel static site; schema in `supabase/schema.sql` |
+
+### 5.7 Prediction Facility
+
+In this KBS, **prediction** means inferring the most plausible fault hypotheses from cleaned/observed evidence using the rule base (not a trained ML classifier).
+
+- **Supported** predictions fire maintenance recommendations.  
+- **Possible** predictions flag incomplete evidence.  
+- Batch prediction runs on ETL-built asset cases (`prediction_cases.json`) from the **Dataset & ETL** page.  
+- Coverage % is rule-match completeness, **not** probability.
 
 ---
 
@@ -245,6 +273,11 @@ Static hosting: Vercel (dist/) or python serve.py on localhost
 
 | Source / Dataset | Type | Size / No. of Records | Purpose | Citation / URL |
 |------------------|------|------------------------|---------|----------------|
+| **UCI Robot Execution Failures** | Authentic public dataset | **463** episodes (LP1–LP5) | Robot force/torque after failure | DOI [10.24432/C5M89N](https://doi.org/10.24432/C5M89N) — **submit + cite** |
+| `dataset/raw/uci_robot_failures/*.data` | Original UCI files | 5 files | Untouched source download | UCI archive |
+| `dataset/raw/uci_robot_failures_instances.csv` | Parsed authentic table | 463 instances | ETL extract output | Project file |
+| `dataset/etl_cleaning.ipynb` | Jupyter ETL (pandas) | DataFrame pipeline | Cleaning + knowledge map demo | Project file — **submit** |
+| `dataset/cleaned/*` | Cleaned info + report | After noise drop | Load for prediction | Project file — **submit** |
 | `knowledge_base.json` | Authored rule/frame KB | 8 faults; 19 symptoms | Diagnostic vocabulary, actions, provenance | Project file |
 | `sample_cases.json` | Synthetic test cases | 13 scenarios | Regression + demonstration | Project file |
 | Universal Robots — Understanding Protective Stops | Manufacturer guidance | 1 article | Payload / friction concepts | [1] |
@@ -253,7 +286,29 @@ Static hosting: Vercel (dist/) or python serve.py on localhost
 | Supabase project tables | Cloud datastore | workspaces, cases, tickets | Optional shared persistence for demo | Project setup |
 | Automated tests `test*.mjs` | Software checks | 13 + validation suites | Behaviour regression | Project file |
 
-The course dataset is **authored**. It contains no plant historian extracts and no independently labelled field holdout. Sources [1–3] support **concepts**, not universal validity of all eight constructed rules.
+### 6.0 ETL and cleaning (noise removal)
+
+**Must-have for this CCP (instructor clarification):** Dataset → Information via ETL.
+
+**Authentic source:** UCI *Robot Execution Failures* (force/torque after failure detection; CC BY 4.0). Local files under `dataset/raw/uci_robot_failures/`. Citation: `dataset/raw/SOURCE.md`.
+
+| Step | Name | What we do |
+|-----:|------|------------|
+| 1 | Extract | Parse UCI LP1–LP5 `.data` → instance DataFrame (class + F/T summaries) |
+| 2 | Clean incomplete | Drop episodes with incomplete 15-sample windows |
+| 3 | Clean missing / outliers | Drop NaNs; remove extreme force/torque absmax outliers |
+| 4 | Deduplicate | Drop duplicate sensor fingerprints |
+| 5 | Knowledge map | Map UCI `failure_class` → educational KB symptoms (documented table) |
+| 6 | Load | Cleaned CSVs + prediction cases → app **Dataset & ETL** page |
+
+**Honesty for viva:** UCI does not use our exact symptom strings; ETL includes an explicit **knowledge-mapping** step from authentic failure labels (collision, obstruction, lost, …) to KB evidence so rule-based prediction can run.
+
+**Measured cleaning result (current run):** 463 UCI instances → **451** sensor rows kept (4 extreme outliers + 8 duplicates removed) → **785** mapped evidence rows → **5** LP-grouped prediction cases loaded into the UI.
+
+**Primary demo:** `dataset/etl_cleaning.ipynb` (pandas DataFrames).  
+CLI refresh: `py -V:3.13 dataset/parse_uci_robot_failures.py` then `py -V:3.13 dataset/run_etl_notebook_logic.py`.
+
+UR sources [1–3] still support KB *concepts*; UCI supplies the **empirical robot-failure dataset**. Evaluation-lab 13/13 PASS measures software behaviour on authored scenarios, not UCI classification accuracy.
 
 ---
 
@@ -265,19 +320,20 @@ The course dataset is **authored**. It contains no plant historian extracts and 
 | Tool | Role |
 |------|------|
 | HTML / CSS / JavaScript ES modules | Client KBS application |
-| JSON | Knowledge base and sample cases |
-| Python 3 `http.server` (`serve.py`) | Local static hosting |
+| JSON / CSV | Knowledge base, sample cases, raw/cleaned dataset |
+| Python 3 + pandas | `etl_cleaning.ipynb` / `run_etl_notebook_logic.py` + `serve.py` |
 | Node.js (optional) | CLI regression tests |
 | Supabase JS (CDN ESM) | Optional cloud sync |
 | Vercel | Public static deployment of `dist/` |
 
-No pip/npm install is required to run the core localhost demo.
+No pip/npm install is required to run the core localhost demo. ETL demo needs `pandas` (`pip install pandas`).
 
 ### 6.2 Modules and Components
 
 | Module / screen | Function |
 |-----------------|----------|
-| Diagnostic studio | Enter observations, guided checks, view findings + trace |
+| Diagnostic studio | Enter observations; show **fault predictions** + trace |
+| Dataset & ETL | Show cleaning steps, noise drop table, batch prediction |
 | Case history | Save/reopen/compare investigations (with KB snapshot) |
 | Maintenance board | Track Open / In progress / Completed tasks |
 | Rule explorer | Inspect/edit educational rules with validation |
@@ -289,14 +345,19 @@ No pip/npm install is required to run the core localhost demo.
 
 | Path | Role |
 |------|------|
+| `dataset/raw/uci_robot_failures/` | Authentic UCI LP1–LP5 source (**submit**) |
+| `dataset/cleaned/` | Cleaned data + ETL report (**submit**) |
+| `dataset/etl_cleaning.ipynb` | Extract → clean → map → load (pandas) |
 | `dist/index.html` | Shell UI, ambient motion layer, splash |
-| `dist/app.mjs` | Events, rendering, persistence, viva demo, splash |
-| `dist/engine.mjs` | `diagnose()` — inference core |
+| `dist/app.mjs` | Events, rendering, ETL UI, predictions |
+| `dist/engine.mjs` | `diagnose()` — inference / prediction core |
 | `dist/evidence.mjs` | Claim merge + validation |
 | `dist/state.mjs` | Workspace / KB validation |
 | `dist/cloud.mjs` | Supabase pull/push |
 | `dist/config.mjs` | Supabase URL / anon key (empty = offline) |
 | `dist/knowledge_base.json` | Frames + rules |
+| `dist/etl_cleaning_report.json` | UI copy of cleaning audit |
+| `dist/prediction_cases.json` | UI copy of ETL prediction cases |
 | `dist/sample_cases.json` | Synthetic scenarios |
 | `dist/style.css` / `polish.css` | Layout + glass/motion styling |
 | `serve.py` | Localhost server |
@@ -417,7 +478,7 @@ https://www.universal-robots.com/manuals/EN/PDF/SW5_24/service-manual_e-series/e
 | Algorithm assessment (CLO 3) | Section 5.3 + 8.1 — forward chaining vs alternatives |
 | Conflicting information | Multi-source Yes+No → Conflict; blocks Supported |
 | Explanation and safety | Trace, condition groups, independent hazard alerts |
-| Dataset and results | 13 synthetic cases; 13/13 PASS; CLI tests |
+| Dataset and results | UCI 463 episodes + ETL; 13/13 eval PASS; CLI tests |
 | Deployable demo | https://arm-insight-kbs-dist.vercel.app/ + localhost `serve.py` |
 
 ### Suggested five-minute demo

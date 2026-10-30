@@ -1,0 +1,4826 @@
+[
+  {
+    "name": "UCI ETL \u00b7 LP1",
+    "asset": "LP1",
+    "evidence": {
+      "protective_stop": "conflict",
+      "position_drift": "yes",
+      "joint_friction": "yes",
+      "grip_loss": "yes"
+    },
+    "records": {
+      "protective_stop": [
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP1 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP1 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP1 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP1 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP1 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP1 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP1 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP1 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP1 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP1 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP1 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP1 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP1 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP1 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP1 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP1 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP1 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP1 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=collision; force_absmax=79.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=collision; force_absmax=185.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=collision; force_absmax=146.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=collision; force_absmax=112.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=collision; force_absmax=95.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=collision; force_absmax=134.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=collision; force_absmax=84.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=collision; force_absmax=133.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=collision; force_absmax=66.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=collision; force_absmax=157.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=collision; force_absmax=68.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=collision; force_absmax=65.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=collision; force_absmax=65.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=collision; force_absmax=70.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=collision; force_absmax=72.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=collision; force_absmax=115.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=collision; force_absmax=93.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=obstruction; force_absmax=1235.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=obstruction; force_absmax=1218.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=obstruction; force_absmax=1360.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=obstruction; force_absmax=1357.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=obstruction; force_absmax=1299.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP1 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=obstruction; force_absmax=1352.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP1 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=obstruction; force_absmax=1395.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=obstruction; force_absmax=1133.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=obstruction; force_absmax=1264.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=obstruction; force_absmax=1286.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=obstruction; force_absmax=1274.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=obstruction; force_absmax=1274.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=obstruction; force_absmax=1340.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=obstruction; force_absmax=1145.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=obstruction; force_absmax=1194.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=fr_collision; force_absmax=394.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=obstruction; force_absmax=1491.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=fr_collision; force_absmax=41.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=fr_collision; force_absmax=35.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=fr_collision; force_absmax=174.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=obstruction; force_absmax=1437.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=fr_collision; force_absmax=94.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=obstruction; force_absmax=429.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=obstruction; force_absmax=1501.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=obstruction; force_absmax=1428.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=fr_collision; force_absmax=50.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=obstruction; force_absmax=866.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=obstruction; force_absmax=1407.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=obstruction; force_absmax=1326.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=obstruction; force_absmax=1547.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP1 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=fr_collision; force_absmax=41.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=fr_collision; force_absmax=101.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=obstruction; force_absmax=1262.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=fr_collision; force_absmax=46.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=obstruction; force_absmax=313.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=obstruction; force_absmax=438.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=fr_collision; force_absmax=43.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=obstruction; force_absmax=124.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=fr_collision; force_absmax=46.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=obstruction; force_absmax=553.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=obstruction; force_absmax=487.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=fr_collision; force_absmax=48.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=obstruction; force_absmax=301.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=fr_collision; force_absmax=58.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=fr_collision; force_absmax=181.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=obstruction; force_absmax=1018.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=fr_collision; force_absmax=50.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=obstruction; force_absmax=411.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=obstruction; force_absmax=1145.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=fr_collision; force_absmax=53.0",
+          "at": "1996-01-01T00:00:00Z"
+        }
+      ],
+      "position_drift": [
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=collision; force_absmax=79.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=collision; force_absmax=185.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=collision; force_absmax=146.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=collision; force_absmax=112.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=collision; force_absmax=95.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=collision; force_absmax=134.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=collision; force_absmax=84.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=collision; force_absmax=133.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=collision; force_absmax=66.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=collision; force_absmax=157.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=collision; force_absmax=68.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=collision; force_absmax=65.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=collision; force_absmax=65.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=collision; force_absmax=70.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=collision; force_absmax=72.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=collision; force_absmax=115.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=collision; force_absmax=93.0",
+          "at": "1996-01-01T00:00:00Z"
+        }
+      ],
+      "joint_friction": [
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=obstruction; force_absmax=1235.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=obstruction; force_absmax=1218.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=obstruction; force_absmax=1360.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=obstruction; force_absmax=1357.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=obstruction; force_absmax=1299.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=obstruction; force_absmax=1352.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=obstruction; force_absmax=1395.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=obstruction; force_absmax=1133.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=obstruction; force_absmax=1264.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=obstruction; force_absmax=1286.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=obstruction; force_absmax=1274.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=obstruction; force_absmax=1274.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=obstruction; force_absmax=1340.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=obstruction; force_absmax=1145.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=obstruction; force_absmax=1194.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=obstruction; force_absmax=1491.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=obstruction; force_absmax=1437.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=obstruction; force_absmax=429.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=obstruction; force_absmax=1501.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=obstruction; force_absmax=1428.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=obstruction; force_absmax=866.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=obstruction; force_absmax=1407.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=obstruction; force_absmax=1326.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=obstruction; force_absmax=1547.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=obstruction; force_absmax=1262.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=obstruction; force_absmax=313.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=obstruction; force_absmax=438.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=obstruction; force_absmax=124.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=obstruction; force_absmax=553.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=obstruction; force_absmax=487.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=obstruction; force_absmax=301.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=obstruction; force_absmax=1018.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=obstruction; force_absmax=411.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=obstruction; force_absmax=1145.0",
+          "at": "1996-01-01T00:00:00Z"
+        }
+      ],
+      "grip_loss": [
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=fr_collision; force_absmax=394.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=fr_collision; force_absmax=41.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=fr_collision; force_absmax=35.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=fr_collision; force_absmax=174.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=fr_collision; force_absmax=94.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=fr_collision; force_absmax=50.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=fr_collision; force_absmax=41.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=fr_collision; force_absmax=101.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=fr_collision; force_absmax=46.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=fr_collision; force_absmax=43.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=fr_collision; force_absmax=46.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=fr_collision; force_absmax=48.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=fr_collision; force_absmax=58.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=fr_collision; force_absmax=181.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=fr_collision; force_absmax=50.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP1 failure_class=fr_collision; force_absmax=53.0",
+          "at": "1996-01-01T00:00:00Z"
+        }
+      ]
+    },
+    "notes": "Built from UCI Robot Execution Failures via ETL knowledge mapping."
+  },
+  {
+    "name": "UCI ETL \u00b7 LP2",
+    "asset": "LP2",
+    "evidence": {
+      "protective_stop": "no",
+      "position_drift": "yes",
+      "unexpected_motion": "yes",
+      "joint_noise": "yes"
+    },
+    "records": {
+      "protective_stop": [
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP2 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP2 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP2 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP2 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP2 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP2 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP2 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP2 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP2 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP2 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP2 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP2 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP2 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP2 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP2 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP2 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP2 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP2 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP2 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP2 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        }
+      ],
+      "position_drift": [
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP2 failure_class=back_col; force_absmax=184.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP2 failure_class=front_col; force_absmax=361.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP2 failure_class=right_col; force_absmax=141.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP2 failure_class=left_col; force_absmax=131.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP2 failure_class=left_col; force_absmax=122.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP2 failure_class=left_col; force_absmax=89.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP2 failure_class=right_col; force_absmax=87.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP2 failure_class=left_col; force_absmax=87.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP2 failure_class=left_col; force_absmax=86.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP2 failure_class=left_col; force_absmax=97.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP2 failure_class=left_col; force_absmax=102.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP2 failure_class=left_col; force_absmax=96.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP2 failure_class=right_col; force_absmax=136.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP2 failure_class=front_col; force_absmax=113.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP2 failure_class=back_col; force_absmax=97.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP2 failure_class=right_col; force_absmax=97.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP2 failure_class=front_col; force_absmax=91.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP2 failure_class=front_col; force_absmax=143.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP2 failure_class=back_col; force_absmax=180.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP2 failure_class=back_col; force_absmax=168.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP2 failure_class=front_col; force_absmax=93.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP2 failure_class=front_col; force_absmax=143.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP2 failure_class=back_col; force_absmax=109.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP2 failure_class=back_col; force_absmax=130.0",
+          "at": "1996-01-01T00:00:00Z"
+        }
+      ],
+      "unexpected_motion": [
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP2 failure_class=back_col; force_absmax=184.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP2 failure_class=front_col; force_absmax=361.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP2 failure_class=front_col; force_absmax=113.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP2 failure_class=back_col; force_absmax=97.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP2 failure_class=front_col; force_absmax=91.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP2 failure_class=front_col; force_absmax=143.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP2 failure_class=back_col; force_absmax=180.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP2 failure_class=back_col; force_absmax=168.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP2 failure_class=front_col; force_absmax=93.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP2 failure_class=front_col; force_absmax=143.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP2 failure_class=back_col; force_absmax=109.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP2 failure_class=back_col; force_absmax=130.0",
+          "at": "1996-01-01T00:00:00Z"
+        }
+      ],
+      "joint_noise": [
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP2 failure_class=right_col; force_absmax=141.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP2 failure_class=left_col; force_absmax=131.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP2 failure_class=left_col; force_absmax=122.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP2 failure_class=left_col; force_absmax=89.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP2 failure_class=right_col; force_absmax=87.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP2 failure_class=left_col; force_absmax=87.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP2 failure_class=left_col; force_absmax=86.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP2 failure_class=left_col; force_absmax=97.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP2 failure_class=left_col; force_absmax=102.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP2 failure_class=left_col; force_absmax=96.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP2 failure_class=right_col; force_absmax=136.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP2 failure_class=right_col; force_absmax=97.0",
+          "at": "1996-01-01T00:00:00Z"
+        }
+      ]
+    },
+    "notes": "Built from UCI Robot Execution Failures via ETL knowledge mapping."
+  },
+  {
+    "name": "UCI ETL \u00b7 LP3",
+    "asset": "LP3",
+    "evidence": {
+      "protective_stop": "no",
+      "grip_loss": "yes",
+      "position_drift": "yes",
+      "pressure_low": "yes"
+    },
+    "records": {
+      "protective_stop": [
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP3 class=ok (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP3 class=ok (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP3 class=ok (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP3 class=ok (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP3 class=ok (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP3 class=ok (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP3 class=ok (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP3 class=ok (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP3 class=ok (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP3 class=ok (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP3 class=ok (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP3 class=ok (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP3 class=ok (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP3 class=ok (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP3 class=ok (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP3 class=ok (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP3 class=ok (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP3 class=ok (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP3 class=ok (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP3 class=ok (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        }
+      ],
+      "grip_loss": [
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP3 failure_class=moved; force_absmax=184.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP3 failure_class=moved; force_absmax=361.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP3 failure_class=moved; force_absmax=131.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP3 failure_class=moved; force_absmax=97.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP3 failure_class=moved; force_absmax=96.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP3 failure_class=moved; force_absmax=136.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP3 failure_class=lost; force_absmax=113.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP3 failure_class=moved; force_absmax=97.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP3 failure_class=moved; force_absmax=97.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP3 failure_class=moved; force_absmax=91.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP3 failure_class=moved; force_absmax=143.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP3 failure_class=moved; force_absmax=180.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP3 failure_class=lost; force_absmax=168.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP3 failure_class=moved; force_absmax=93.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP3 failure_class=lost; force_absmax=143.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP3 failure_class=moved; force_absmax=130.0",
+          "at": "1996-01-01T00:00:00Z"
+        }
+      ],
+      "position_drift": [
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP3 failure_class=moved; force_absmax=184.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP3 failure_class=moved; force_absmax=361.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP3 failure_class=slightly_moved; force_absmax=141.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP3 failure_class=moved; force_absmax=131.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP3 failure_class=slightly_moved; force_absmax=122.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP3 failure_class=slightly_moved; force_absmax=89.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP3 failure_class=slightly_moved; force_absmax=87.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP3 failure_class=slightly_moved; force_absmax=87.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP3 failure_class=slightly_moved; force_absmax=86.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP3 failure_class=moved; force_absmax=97.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP3 failure_class=slightly_moved; force_absmax=102.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP3 failure_class=moved; force_absmax=96.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP3 failure_class=moved; force_absmax=136.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP3 failure_class=moved; force_absmax=97.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP3 failure_class=moved; force_absmax=97.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP3 failure_class=moved; force_absmax=91.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP3 failure_class=moved; force_absmax=143.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP3 failure_class=moved; force_absmax=180.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP3 failure_class=moved; force_absmax=93.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP3 failure_class=slightly_moved; force_absmax=109.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP3 failure_class=moved; force_absmax=130.0",
+          "at": "1996-01-01T00:00:00Z"
+        }
+      ],
+      "pressure_low": [
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP3 failure_class=lost; force_absmax=113.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP3 failure_class=lost; force_absmax=168.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP3 failure_class=lost; force_absmax=143.0",
+          "at": "1996-01-01T00:00:00Z"
+        }
+      ]
+    },
+    "notes": "Built from UCI Robot Execution Failures via ETL knowledge mapping."
+  },
+  {
+    "name": "UCI ETL \u00b7 LP4",
+    "asset": "LP4",
+    "evidence": {
+      "protective_stop": "conflict",
+      "position_drift": "yes",
+      "joint_friction": "yes"
+    },
+    "records": {
+      "protective_stop": [
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP4 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP4 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP4 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP4 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP4 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP4 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP4 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP4 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP4 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP4 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP4 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP4 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP4 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP4 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP4 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP4 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP4 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP4 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP4 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP4 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP4 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP4 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP4 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP4 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=123.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=100.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=49.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=26.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=36.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=20.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=36.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=23.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=29.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=59.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=240.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=91.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=31.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=55.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=27.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=32.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=24.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=165.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=39.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=79.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=14.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=30.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=42.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=74.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=34.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=188.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=116.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=obstruction; force_absmax=2957.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=1175.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=obstruction; force_absmax=3161.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=obstruction; force_absmax=2233.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=obstruction; force_absmax=1384.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=obstruction; force_absmax=2966.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=2112.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=1387.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=655.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=obstruction; force_absmax=3348.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=obstruction; force_absmax=2305.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=obstruction; force_absmax=3557.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=obstruction; force_absmax=169.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=406.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=obstruction; force_absmax=3235.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=54.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=obstruction; force_absmax=2757.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=201.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=obstruction; force_absmax=3451.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=obstruction; force_absmax=526.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=122.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=obstruction; force_absmax=3277.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=19.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=obstruction; force_absmax=2325.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=73.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=obstruction; force_absmax=2992.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=931.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=701.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=191.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=141.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=obstruction; force_absmax=2303.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=obstruction; force_absmax=2460.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=obstruction; force_absmax=2950.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=58.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=62.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=140.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=45.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=185.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=45.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=138.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=49.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=58.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=obstruction; force_absmax=1615.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=38.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=496.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=182.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=27.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=55.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=21.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=17.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=120.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=17.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=57.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=48.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=22.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=123.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=29.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=150.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=43.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=36.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=17.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=41.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=15.0",
+          "at": "1996-01-01T00:00:00Z"
+        }
+      ],
+      "position_drift": [
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=123.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=100.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=49.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=26.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=36.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=20.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=36.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=23.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=29.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=59.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=240.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=91.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=31.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=55.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=27.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=32.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=24.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=165.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=39.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=79.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=14.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=30.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=42.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=74.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=34.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=188.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=116.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=1175.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=2112.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=1387.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=655.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=406.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=54.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=201.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=122.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=19.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=73.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=931.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=701.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=191.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=141.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=58.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=62.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=140.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=45.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=185.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=45.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=138.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=49.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=58.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=38.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=496.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=182.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=27.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=55.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=21.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=17.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=120.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=17.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=57.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=48.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=22.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=123.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=29.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=150.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=43.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=36.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=17.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=41.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=collision; force_absmax=15.0",
+          "at": "1996-01-01T00:00:00Z"
+        }
+      ],
+      "joint_friction": [
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=obstruction; force_absmax=2957.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=obstruction; force_absmax=3161.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=obstruction; force_absmax=2233.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=obstruction; force_absmax=1384.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=obstruction; force_absmax=2966.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=obstruction; force_absmax=3348.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=obstruction; force_absmax=2305.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=obstruction; force_absmax=3557.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=obstruction; force_absmax=169.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=obstruction; force_absmax=3235.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=obstruction; force_absmax=2757.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=obstruction; force_absmax=3451.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=obstruction; force_absmax=526.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=obstruction; force_absmax=3277.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=obstruction; force_absmax=2325.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=obstruction; force_absmax=2992.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=obstruction; force_absmax=2303.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=obstruction; force_absmax=2460.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=obstruction; force_absmax=2950.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP4 failure_class=obstruction; force_absmax=1615.0",
+          "at": "1996-01-01T00:00:00Z"
+        }
+      ]
+    },
+    "notes": "Built from UCI Robot Execution Failures via ETL knowledge mapping."
+  },
+  {
+    "name": "UCI ETL \u00b7 LP5",
+    "asset": "LP5",
+    "evidence": {
+      "protective_stop": "conflict",
+      "payload_mismatch": "yes",
+      "grip_loss": "yes",
+      "joint_friction": "yes",
+      "joint_noise": "yes",
+      "position_drift": "yes",
+      "joint_droop": "yes",
+      "brake_alarm": "yes"
+    },
+    "records": {
+      "protective_stop": [
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP5 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP5 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP5 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP5 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP5 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP5 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP5 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP5 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP5 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP5 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP5 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP5 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP5 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP5 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP5 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP5 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP5 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP5 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP5 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP5 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=184.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=361.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=141.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=131.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=122.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=89.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=87.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=87.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=86.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=97.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=102.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=96.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=96.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=136.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=136.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=113.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=97.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=97.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=91.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=143.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=180.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=168.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=93.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=143.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=109.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=109.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=130.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP5 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP5 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP5 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP5 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP5 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP5 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP5 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP5 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP5 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP5 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP5 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP5 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP5 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP5 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP5 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP5 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP5 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP5 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP5 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP5 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP5 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP5 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP5 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "no",
+          "note": "UCI LP5 class=normal (normal/ok)",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=123.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=100.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=49.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=26.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=36.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=20.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=36.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=23.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=29.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=59.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=240.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=91.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=31.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=55.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=27.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=32.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=24.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=165.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=39.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=79.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=14.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=30.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=42.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=74.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=34.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=188.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=116.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=27.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=55.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=21.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=17.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=120.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=17.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=57.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=48.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=22.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=123.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=29.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=150.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=43.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=36.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=17.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=41.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=15.0",
+          "at": "1996-01-01T00:00:00Z"
+        }
+      ],
+      "payload_mismatch": [
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=184.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=361.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=141.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=131.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=122.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=89.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=87.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=87.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=86.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=102.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=96.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=136.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=109.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=79.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=14.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=30.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=42.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=74.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=34.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=188.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=116.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=43.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=36.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=17.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=41.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=15.0",
+          "at": "1996-01-01T00:00:00Z"
+        }
+      ],
+      "grip_loss": [
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=97.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=96.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=136.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=113.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=97.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=97.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=91.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=143.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=180.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=168.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=93.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=143.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=109.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=130.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=123.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=100.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=49.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=26.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=36.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=20.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=36.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=23.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=29.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=59.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=240.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=91.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=31.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=55.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=27.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=32.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=24.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=165.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=39.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=27.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=55.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=21.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=17.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=120.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=17.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=57.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=48.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=22.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=123.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=29.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=150.0",
+          "at": "1996-01-01T00:00:00Z"
+        }
+      ],
+      "joint_friction": [
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=2957.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=3161.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=2233.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=1384.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=2966.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=3348.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=2305.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=3557.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=169.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=3235.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=2757.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=3451.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=526.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=3277.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=2325.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=2992.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=2303.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=2460.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=2950.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=1615.0",
+          "at": "1996-01-01T00:00:00Z"
+        }
+      ],
+      "joint_noise": [
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=2957.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=3161.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=2233.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=1384.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=2966.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=3348.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=2305.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=3557.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=169.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=3235.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=2757.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=3451.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=526.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=3277.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=2325.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=2992.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=2303.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=2460.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=2950.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=1615.0",
+          "at": "1996-01-01T00:00:00Z"
+        }
+      ],
+      "position_drift": [
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=2957.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=3161.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=2233.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=1384.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=2966.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=3348.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=2305.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=3557.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=169.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=3235.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=2757.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=3451.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=526.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=3277.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=2325.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=2992.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=2303.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=2460.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=2950.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=1615.0",
+          "at": "1996-01-01T00:00:00Z"
+        }
+      ],
+      "joint_droop": [
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=1175.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=2112.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=1387.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=655.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=406.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=54.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=201.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=122.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=19.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=73.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=931.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=701.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=191.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=141.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=58.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=62.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=140.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=45.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=185.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=45.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=138.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=49.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=58.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=38.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=496.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=182.0",
+          "at": "1996-01-01T00:00:00Z"
+        }
+      ],
+      "brake_alarm": [
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=1175.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=2112.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=1387.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=655.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=406.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=54.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=201.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=122.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=19.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=73.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=931.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=701.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=191.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=141.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=58.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=62.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=140.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=45.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=185.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=45.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=138.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=49.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=58.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=38.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=496.0",
+          "at": "1996-01-01T00:00:00Z"
+        },
+        {
+          "source": "Sensor / controller",
+          "state": "yes",
+          "note": "Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=182.0",
+          "at": "1996-01-01T00:00:00Z"
+        }
+      ]
+    },
+    "notes": "Built from UCI Robot Execution Failures via ETL knowledge mapping."
+  }
+]

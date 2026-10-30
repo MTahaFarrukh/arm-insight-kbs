@@ -1,0 +1,786 @@
+record_id,timestamp,asset_id,source,symptom,evidence,technician_note,uci_class,force_absmax
+LP1-001,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,no,UCI LP1 class=normal (normal/ok),normal,64.0
+LP1-002,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,no,UCI LP1 class=normal (normal/ok),normal,70.0
+LP1-003,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,no,UCI LP1 class=normal (normal/ok),normal,68.0
+LP1-004,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,no,UCI LP1 class=normal (normal/ok),normal,70.0
+LP1-005,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,no,UCI LP1 class=normal (normal/ok),normal,73.0
+LP1-006,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,no,UCI LP1 class=normal (normal/ok),normal,64.0
+LP1-007,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,no,UCI LP1 class=normal (normal/ok),normal,70.0
+LP1-008,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,no,UCI LP1 class=normal (normal/ok),normal,69.0
+LP1-009,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,no,UCI LP1 class=normal (normal/ok),normal,69.0
+LP1-010,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,no,UCI LP1 class=normal (normal/ok),normal,64.0
+LP1-011,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,no,UCI LP1 class=normal (normal/ok),normal,70.0
+LP1-012,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,no,UCI LP1 class=normal (normal/ok),normal,70.0
+LP1-013,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,no,UCI LP1 class=normal (normal/ok),normal,69.0
+LP1-014,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,no,UCI LP1 class=normal (normal/ok),normal,66.0
+LP1-015,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,no,UCI LP1 class=normal (normal/ok),normal,72.0
+LP1-016,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,no,UCI LP1 class=normal (normal/ok),normal,67.0
+LP1-017,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,no,UCI LP1 class=normal (normal/ok),normal,64.0
+LP1-018,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,no,UCI LP1 class=normal (normal/ok),normal,68.0
+LP1-019-protective_stop,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,yes,Mapped from UCI LP1 failure_class=collision; force_absmax=79.0,collision,79.0
+LP1-019-position_drift,1996-01-01T00:00:00Z,LP1,Sensor / controller,position_drift,yes,Mapped from UCI LP1 failure_class=collision; force_absmax=79.0,collision,79.0
+LP1-020-protective_stop,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,yes,Mapped from UCI LP1 failure_class=collision; force_absmax=185.0,collision,185.0
+LP1-020-position_drift,1996-01-01T00:00:00Z,LP1,Sensor / controller,position_drift,yes,Mapped from UCI LP1 failure_class=collision; force_absmax=185.0,collision,185.0
+LP1-021-protective_stop,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,yes,Mapped from UCI LP1 failure_class=collision; force_absmax=146.0,collision,146.0
+LP1-021-position_drift,1996-01-01T00:00:00Z,LP1,Sensor / controller,position_drift,yes,Mapped from UCI LP1 failure_class=collision; force_absmax=146.0,collision,146.0
+LP1-022-protective_stop,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,yes,Mapped from UCI LP1 failure_class=collision; force_absmax=112.0,collision,112.0
+LP1-022-position_drift,1996-01-01T00:00:00Z,LP1,Sensor / controller,position_drift,yes,Mapped from UCI LP1 failure_class=collision; force_absmax=112.0,collision,112.0
+LP1-023-protective_stop,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,yes,Mapped from UCI LP1 failure_class=collision; force_absmax=95.0,collision,95.0
+LP1-023-position_drift,1996-01-01T00:00:00Z,LP1,Sensor / controller,position_drift,yes,Mapped from UCI LP1 failure_class=collision; force_absmax=95.0,collision,95.0
+LP1-024-protective_stop,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,yes,Mapped from UCI LP1 failure_class=collision; force_absmax=134.0,collision,134.0
+LP1-024-position_drift,1996-01-01T00:00:00Z,LP1,Sensor / controller,position_drift,yes,Mapped from UCI LP1 failure_class=collision; force_absmax=134.0,collision,134.0
+LP1-025-protective_stop,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,yes,Mapped from UCI LP1 failure_class=collision; force_absmax=84.0,collision,84.0
+LP1-025-position_drift,1996-01-01T00:00:00Z,LP1,Sensor / controller,position_drift,yes,Mapped from UCI LP1 failure_class=collision; force_absmax=84.0,collision,84.0
+LP1-026-protective_stop,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,yes,Mapped from UCI LP1 failure_class=collision; force_absmax=133.0,collision,133.0
+LP1-026-position_drift,1996-01-01T00:00:00Z,LP1,Sensor / controller,position_drift,yes,Mapped from UCI LP1 failure_class=collision; force_absmax=133.0,collision,133.0
+LP1-027-protective_stop,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,yes,Mapped from UCI LP1 failure_class=collision; force_absmax=66.0,collision,66.0
+LP1-027-position_drift,1996-01-01T00:00:00Z,LP1,Sensor / controller,position_drift,yes,Mapped from UCI LP1 failure_class=collision; force_absmax=66.0,collision,66.0
+LP1-028-protective_stop,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,yes,Mapped from UCI LP1 failure_class=collision; force_absmax=157.0,collision,157.0
+LP1-028-position_drift,1996-01-01T00:00:00Z,LP1,Sensor / controller,position_drift,yes,Mapped from UCI LP1 failure_class=collision; force_absmax=157.0,collision,157.0
+LP1-029-protective_stop,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,yes,Mapped from UCI LP1 failure_class=collision; force_absmax=68.0,collision,68.0
+LP1-029-position_drift,1996-01-01T00:00:00Z,LP1,Sensor / controller,position_drift,yes,Mapped from UCI LP1 failure_class=collision; force_absmax=68.0,collision,68.0
+LP1-030-protective_stop,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,yes,Mapped from UCI LP1 failure_class=collision; force_absmax=65.0,collision,65.0
+LP1-030-position_drift,1996-01-01T00:00:00Z,LP1,Sensor / controller,position_drift,yes,Mapped from UCI LP1 failure_class=collision; force_absmax=65.0,collision,65.0
+LP1-031-protective_stop,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,yes,Mapped from UCI LP1 failure_class=collision; force_absmax=65.0,collision,65.0
+LP1-031-position_drift,1996-01-01T00:00:00Z,LP1,Sensor / controller,position_drift,yes,Mapped from UCI LP1 failure_class=collision; force_absmax=65.0,collision,65.0
+LP1-032-protective_stop,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,yes,Mapped from UCI LP1 failure_class=collision; force_absmax=70.0,collision,70.0
+LP1-032-position_drift,1996-01-01T00:00:00Z,LP1,Sensor / controller,position_drift,yes,Mapped from UCI LP1 failure_class=collision; force_absmax=70.0,collision,70.0
+LP1-033-protective_stop,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,yes,Mapped from UCI LP1 failure_class=collision; force_absmax=72.0,collision,72.0
+LP1-033-position_drift,1996-01-01T00:00:00Z,LP1,Sensor / controller,position_drift,yes,Mapped from UCI LP1 failure_class=collision; force_absmax=72.0,collision,72.0
+LP1-034-protective_stop,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,yes,Mapped from UCI LP1 failure_class=collision; force_absmax=115.0,collision,115.0
+LP1-034-position_drift,1996-01-01T00:00:00Z,LP1,Sensor / controller,position_drift,yes,Mapped from UCI LP1 failure_class=collision; force_absmax=115.0,collision,115.0
+LP1-035-protective_stop,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,yes,Mapped from UCI LP1 failure_class=collision; force_absmax=93.0,collision,93.0
+LP1-035-position_drift,1996-01-01T00:00:00Z,LP1,Sensor / controller,position_drift,yes,Mapped from UCI LP1 failure_class=collision; force_absmax=93.0,collision,93.0
+LP1-036-protective_stop,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,yes,Mapped from UCI LP1 failure_class=obstruction; force_absmax=1235.0,obstruction,1235.0
+LP1-036-joint_friction,1996-01-01T00:00:00Z,LP1,Sensor / controller,joint_friction,yes,Mapped from UCI LP1 failure_class=obstruction; force_absmax=1235.0,obstruction,1235.0
+LP1-037-protective_stop,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,yes,Mapped from UCI LP1 failure_class=obstruction; force_absmax=1218.0,obstruction,1218.0
+LP1-037-joint_friction,1996-01-01T00:00:00Z,LP1,Sensor / controller,joint_friction,yes,Mapped from UCI LP1 failure_class=obstruction; force_absmax=1218.0,obstruction,1218.0
+LP1-038-protective_stop,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,yes,Mapped from UCI LP1 failure_class=obstruction; force_absmax=1360.0,obstruction,1360.0
+LP1-038-joint_friction,1996-01-01T00:00:00Z,LP1,Sensor / controller,joint_friction,yes,Mapped from UCI LP1 failure_class=obstruction; force_absmax=1360.0,obstruction,1360.0
+LP1-039-protective_stop,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,yes,Mapped from UCI LP1 failure_class=obstruction; force_absmax=1357.0,obstruction,1357.0
+LP1-039-joint_friction,1996-01-01T00:00:00Z,LP1,Sensor / controller,joint_friction,yes,Mapped from UCI LP1 failure_class=obstruction; force_absmax=1357.0,obstruction,1357.0
+LP1-040-protective_stop,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,yes,Mapped from UCI LP1 failure_class=obstruction; force_absmax=1299.0,obstruction,1299.0
+LP1-040-joint_friction,1996-01-01T00:00:00Z,LP1,Sensor / controller,joint_friction,yes,Mapped from UCI LP1 failure_class=obstruction; force_absmax=1299.0,obstruction,1299.0
+LP1-041,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,no,UCI LP1 class=normal (normal/ok),normal,68.0
+LP1-042-protective_stop,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,yes,Mapped from UCI LP1 failure_class=obstruction; force_absmax=1352.0,obstruction,1352.0
+LP1-042-joint_friction,1996-01-01T00:00:00Z,LP1,Sensor / controller,joint_friction,yes,Mapped from UCI LP1 failure_class=obstruction; force_absmax=1352.0,obstruction,1352.0
+LP1-043,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,no,UCI LP1 class=normal (normal/ok),normal,66.0
+LP1-044-protective_stop,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,yes,Mapped from UCI LP1 failure_class=obstruction; force_absmax=1395.0,obstruction,1395.0
+LP1-044-joint_friction,1996-01-01T00:00:00Z,LP1,Sensor / controller,joint_friction,yes,Mapped from UCI LP1 failure_class=obstruction; force_absmax=1395.0,obstruction,1395.0
+LP1-045-protective_stop,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,yes,Mapped from UCI LP1 failure_class=obstruction; force_absmax=1133.0,obstruction,1133.0
+LP1-045-joint_friction,1996-01-01T00:00:00Z,LP1,Sensor / controller,joint_friction,yes,Mapped from UCI LP1 failure_class=obstruction; force_absmax=1133.0,obstruction,1133.0
+LP1-046-protective_stop,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,yes,Mapped from UCI LP1 failure_class=obstruction; force_absmax=1264.0,obstruction,1264.0
+LP1-046-joint_friction,1996-01-01T00:00:00Z,LP1,Sensor / controller,joint_friction,yes,Mapped from UCI LP1 failure_class=obstruction; force_absmax=1264.0,obstruction,1264.0
+LP1-047-protective_stop,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,yes,Mapped from UCI LP1 failure_class=obstruction; force_absmax=1286.0,obstruction,1286.0
+LP1-047-joint_friction,1996-01-01T00:00:00Z,LP1,Sensor / controller,joint_friction,yes,Mapped from UCI LP1 failure_class=obstruction; force_absmax=1286.0,obstruction,1286.0
+LP1-048-protective_stop,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,yes,Mapped from UCI LP1 failure_class=obstruction; force_absmax=1274.0,obstruction,1274.0
+LP1-048-joint_friction,1996-01-01T00:00:00Z,LP1,Sensor / controller,joint_friction,yes,Mapped from UCI LP1 failure_class=obstruction; force_absmax=1274.0,obstruction,1274.0
+LP1-049-protective_stop,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,yes,Mapped from UCI LP1 failure_class=obstruction; force_absmax=1274.0,obstruction,1274.0
+LP1-049-joint_friction,1996-01-01T00:00:00Z,LP1,Sensor / controller,joint_friction,yes,Mapped from UCI LP1 failure_class=obstruction; force_absmax=1274.0,obstruction,1274.0
+LP1-050-protective_stop,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,yes,Mapped from UCI LP1 failure_class=obstruction; force_absmax=1340.0,obstruction,1340.0
+LP1-050-joint_friction,1996-01-01T00:00:00Z,LP1,Sensor / controller,joint_friction,yes,Mapped from UCI LP1 failure_class=obstruction; force_absmax=1340.0,obstruction,1340.0
+LP1-051-protective_stop,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,yes,Mapped from UCI LP1 failure_class=obstruction; force_absmax=1145.0,obstruction,1145.0
+LP1-051-joint_friction,1996-01-01T00:00:00Z,LP1,Sensor / controller,joint_friction,yes,Mapped from UCI LP1 failure_class=obstruction; force_absmax=1145.0,obstruction,1145.0
+LP1-052-protective_stop,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,yes,Mapped from UCI LP1 failure_class=obstruction; force_absmax=1194.0,obstruction,1194.0
+LP1-052-joint_friction,1996-01-01T00:00:00Z,LP1,Sensor / controller,joint_friction,yes,Mapped from UCI LP1 failure_class=obstruction; force_absmax=1194.0,obstruction,1194.0
+LP1-053-protective_stop,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,yes,Mapped from UCI LP1 failure_class=fr_collision; force_absmax=394.0,fr_collision,394.0
+LP1-053-grip_loss,1996-01-01T00:00:00Z,LP1,Sensor / controller,grip_loss,yes,Mapped from UCI LP1 failure_class=fr_collision; force_absmax=394.0,fr_collision,394.0
+LP1-054-protective_stop,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,yes,Mapped from UCI LP1 failure_class=obstruction; force_absmax=1491.0,obstruction,1491.0
+LP1-054-joint_friction,1996-01-01T00:00:00Z,LP1,Sensor / controller,joint_friction,yes,Mapped from UCI LP1 failure_class=obstruction; force_absmax=1491.0,obstruction,1491.0
+LP1-055-protective_stop,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,yes,Mapped from UCI LP1 failure_class=fr_collision; force_absmax=41.0,fr_collision,41.0
+LP1-055-grip_loss,1996-01-01T00:00:00Z,LP1,Sensor / controller,grip_loss,yes,Mapped from UCI LP1 failure_class=fr_collision; force_absmax=41.0,fr_collision,41.0
+LP1-056-protective_stop,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,yes,Mapped from UCI LP1 failure_class=fr_collision; force_absmax=35.0,fr_collision,35.0
+LP1-056-grip_loss,1996-01-01T00:00:00Z,LP1,Sensor / controller,grip_loss,yes,Mapped from UCI LP1 failure_class=fr_collision; force_absmax=35.0,fr_collision,35.0
+LP1-057-protective_stop,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,yes,Mapped from UCI LP1 failure_class=fr_collision; force_absmax=174.0,fr_collision,174.0
+LP1-057-grip_loss,1996-01-01T00:00:00Z,LP1,Sensor / controller,grip_loss,yes,Mapped from UCI LP1 failure_class=fr_collision; force_absmax=174.0,fr_collision,174.0
+LP1-058-protective_stop,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,yes,Mapped from UCI LP1 failure_class=obstruction; force_absmax=1437.0,obstruction,1437.0
+LP1-058-joint_friction,1996-01-01T00:00:00Z,LP1,Sensor / controller,joint_friction,yes,Mapped from UCI LP1 failure_class=obstruction; force_absmax=1437.0,obstruction,1437.0
+LP1-059-protective_stop,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,yes,Mapped from UCI LP1 failure_class=fr_collision; force_absmax=94.0,fr_collision,94.0
+LP1-059-grip_loss,1996-01-01T00:00:00Z,LP1,Sensor / controller,grip_loss,yes,Mapped from UCI LP1 failure_class=fr_collision; force_absmax=94.0,fr_collision,94.0
+LP1-060-protective_stop,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,yes,Mapped from UCI LP1 failure_class=obstruction; force_absmax=429.0,obstruction,429.0
+LP1-060-joint_friction,1996-01-01T00:00:00Z,LP1,Sensor / controller,joint_friction,yes,Mapped from UCI LP1 failure_class=obstruction; force_absmax=429.0,obstruction,429.0
+LP1-061-protective_stop,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,yes,Mapped from UCI LP1 failure_class=obstruction; force_absmax=1501.0,obstruction,1501.0
+LP1-061-joint_friction,1996-01-01T00:00:00Z,LP1,Sensor / controller,joint_friction,yes,Mapped from UCI LP1 failure_class=obstruction; force_absmax=1501.0,obstruction,1501.0
+LP1-062-protective_stop,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,yes,Mapped from UCI LP1 failure_class=obstruction; force_absmax=1428.0,obstruction,1428.0
+LP1-062-joint_friction,1996-01-01T00:00:00Z,LP1,Sensor / controller,joint_friction,yes,Mapped from UCI LP1 failure_class=obstruction; force_absmax=1428.0,obstruction,1428.0
+LP1-063-protective_stop,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,yes,Mapped from UCI LP1 failure_class=fr_collision; force_absmax=50.0,fr_collision,50.0
+LP1-063-grip_loss,1996-01-01T00:00:00Z,LP1,Sensor / controller,grip_loss,yes,Mapped from UCI LP1 failure_class=fr_collision; force_absmax=50.0,fr_collision,50.0
+LP1-064-protective_stop,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,yes,Mapped from UCI LP1 failure_class=obstruction; force_absmax=866.0,obstruction,866.0
+LP1-064-joint_friction,1996-01-01T00:00:00Z,LP1,Sensor / controller,joint_friction,yes,Mapped from UCI LP1 failure_class=obstruction; force_absmax=866.0,obstruction,866.0
+LP1-065-protective_stop,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,yes,Mapped from UCI LP1 failure_class=obstruction; force_absmax=1407.0,obstruction,1407.0
+LP1-065-joint_friction,1996-01-01T00:00:00Z,LP1,Sensor / controller,joint_friction,yes,Mapped from UCI LP1 failure_class=obstruction; force_absmax=1407.0,obstruction,1407.0
+LP1-066-protective_stop,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,yes,Mapped from UCI LP1 failure_class=obstruction; force_absmax=1326.0,obstruction,1326.0
+LP1-066-joint_friction,1996-01-01T00:00:00Z,LP1,Sensor / controller,joint_friction,yes,Mapped from UCI LP1 failure_class=obstruction; force_absmax=1326.0,obstruction,1326.0
+LP1-067-protective_stop,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,yes,Mapped from UCI LP1 failure_class=obstruction; force_absmax=1547.0,obstruction,1547.0
+LP1-067-joint_friction,1996-01-01T00:00:00Z,LP1,Sensor / controller,joint_friction,yes,Mapped from UCI LP1 failure_class=obstruction; force_absmax=1547.0,obstruction,1547.0
+LP1-068,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,no,UCI LP1 class=normal (normal/ok),normal,58.0
+LP1-069-protective_stop,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,yes,Mapped from UCI LP1 failure_class=fr_collision; force_absmax=41.0,fr_collision,41.0
+LP1-069-grip_loss,1996-01-01T00:00:00Z,LP1,Sensor / controller,grip_loss,yes,Mapped from UCI LP1 failure_class=fr_collision; force_absmax=41.0,fr_collision,41.0
+LP1-070-protective_stop,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,yes,Mapped from UCI LP1 failure_class=fr_collision; force_absmax=101.0,fr_collision,101.0
+LP1-070-grip_loss,1996-01-01T00:00:00Z,LP1,Sensor / controller,grip_loss,yes,Mapped from UCI LP1 failure_class=fr_collision; force_absmax=101.0,fr_collision,101.0
+LP1-071-protective_stop,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,yes,Mapped from UCI LP1 failure_class=obstruction; force_absmax=1262.0,obstruction,1262.0
+LP1-071-joint_friction,1996-01-01T00:00:00Z,LP1,Sensor / controller,joint_friction,yes,Mapped from UCI LP1 failure_class=obstruction; force_absmax=1262.0,obstruction,1262.0
+LP1-072-protective_stop,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,yes,Mapped from UCI LP1 failure_class=fr_collision; force_absmax=46.0,fr_collision,46.0
+LP1-072-grip_loss,1996-01-01T00:00:00Z,LP1,Sensor / controller,grip_loss,yes,Mapped from UCI LP1 failure_class=fr_collision; force_absmax=46.0,fr_collision,46.0
+LP1-073-protective_stop,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,yes,Mapped from UCI LP1 failure_class=obstruction; force_absmax=313.0,obstruction,313.0
+LP1-073-joint_friction,1996-01-01T00:00:00Z,LP1,Sensor / controller,joint_friction,yes,Mapped from UCI LP1 failure_class=obstruction; force_absmax=313.0,obstruction,313.0
+LP1-074-protective_stop,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,yes,Mapped from UCI LP1 failure_class=obstruction; force_absmax=438.0,obstruction,438.0
+LP1-074-joint_friction,1996-01-01T00:00:00Z,LP1,Sensor / controller,joint_friction,yes,Mapped from UCI LP1 failure_class=obstruction; force_absmax=438.0,obstruction,438.0
+LP1-075-protective_stop,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,yes,Mapped from UCI LP1 failure_class=fr_collision; force_absmax=43.0,fr_collision,43.0
+LP1-075-grip_loss,1996-01-01T00:00:00Z,LP1,Sensor / controller,grip_loss,yes,Mapped from UCI LP1 failure_class=fr_collision; force_absmax=43.0,fr_collision,43.0
+LP1-076-protective_stop,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,yes,Mapped from UCI LP1 failure_class=obstruction; force_absmax=124.0,obstruction,124.0
+LP1-076-joint_friction,1996-01-01T00:00:00Z,LP1,Sensor / controller,joint_friction,yes,Mapped from UCI LP1 failure_class=obstruction; force_absmax=124.0,obstruction,124.0
+LP1-077-protective_stop,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,yes,Mapped from UCI LP1 failure_class=fr_collision; force_absmax=46.0,fr_collision,46.0
+LP1-077-grip_loss,1996-01-01T00:00:00Z,LP1,Sensor / controller,grip_loss,yes,Mapped from UCI LP1 failure_class=fr_collision; force_absmax=46.0,fr_collision,46.0
+LP1-078-protective_stop,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,yes,Mapped from UCI LP1 failure_class=obstruction; force_absmax=553.0,obstruction,553.0
+LP1-078-joint_friction,1996-01-01T00:00:00Z,LP1,Sensor / controller,joint_friction,yes,Mapped from UCI LP1 failure_class=obstruction; force_absmax=553.0,obstruction,553.0
+LP1-079-protective_stop,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,yes,Mapped from UCI LP1 failure_class=obstruction; force_absmax=487.0,obstruction,487.0
+LP1-079-joint_friction,1996-01-01T00:00:00Z,LP1,Sensor / controller,joint_friction,yes,Mapped from UCI LP1 failure_class=obstruction; force_absmax=487.0,obstruction,487.0
+LP1-080-protective_stop,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,yes,Mapped from UCI LP1 failure_class=fr_collision; force_absmax=48.0,fr_collision,48.0
+LP1-080-grip_loss,1996-01-01T00:00:00Z,LP1,Sensor / controller,grip_loss,yes,Mapped from UCI LP1 failure_class=fr_collision; force_absmax=48.0,fr_collision,48.0
+LP1-081-protective_stop,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,yes,Mapped from UCI LP1 failure_class=obstruction; force_absmax=301.0,obstruction,301.0
+LP1-081-joint_friction,1996-01-01T00:00:00Z,LP1,Sensor / controller,joint_friction,yes,Mapped from UCI LP1 failure_class=obstruction; force_absmax=301.0,obstruction,301.0
+LP1-082-protective_stop,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,yes,Mapped from UCI LP1 failure_class=fr_collision; force_absmax=58.0,fr_collision,58.0
+LP1-082-grip_loss,1996-01-01T00:00:00Z,LP1,Sensor / controller,grip_loss,yes,Mapped from UCI LP1 failure_class=fr_collision; force_absmax=58.0,fr_collision,58.0
+LP1-083-protective_stop,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,yes,Mapped from UCI LP1 failure_class=fr_collision; force_absmax=181.0,fr_collision,181.0
+LP1-083-grip_loss,1996-01-01T00:00:00Z,LP1,Sensor / controller,grip_loss,yes,Mapped from UCI LP1 failure_class=fr_collision; force_absmax=181.0,fr_collision,181.0
+LP1-084-protective_stop,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,yes,Mapped from UCI LP1 failure_class=obstruction; force_absmax=1018.0,obstruction,1018.0
+LP1-084-joint_friction,1996-01-01T00:00:00Z,LP1,Sensor / controller,joint_friction,yes,Mapped from UCI LP1 failure_class=obstruction; force_absmax=1018.0,obstruction,1018.0
+LP1-085-protective_stop,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,yes,Mapped from UCI LP1 failure_class=fr_collision; force_absmax=50.0,fr_collision,50.0
+LP1-085-grip_loss,1996-01-01T00:00:00Z,LP1,Sensor / controller,grip_loss,yes,Mapped from UCI LP1 failure_class=fr_collision; force_absmax=50.0,fr_collision,50.0
+LP1-086-protective_stop,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,yes,Mapped from UCI LP1 failure_class=obstruction; force_absmax=411.0,obstruction,411.0
+LP1-086-joint_friction,1996-01-01T00:00:00Z,LP1,Sensor / controller,joint_friction,yes,Mapped from UCI LP1 failure_class=obstruction; force_absmax=411.0,obstruction,411.0
+LP1-087-protective_stop,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,yes,Mapped from UCI LP1 failure_class=obstruction; force_absmax=1145.0,obstruction,1145.0
+LP1-087-joint_friction,1996-01-01T00:00:00Z,LP1,Sensor / controller,joint_friction,yes,Mapped from UCI LP1 failure_class=obstruction; force_absmax=1145.0,obstruction,1145.0
+LP1-088-protective_stop,1996-01-01T00:00:00Z,LP1,Sensor / controller,protective_stop,yes,Mapped from UCI LP1 failure_class=fr_collision; force_absmax=53.0,fr_collision,53.0
+LP1-088-grip_loss,1996-01-01T00:00:00Z,LP1,Sensor / controller,grip_loss,yes,Mapped from UCI LP1 failure_class=fr_collision; force_absmax=53.0,fr_collision,53.0
+LP2-001,1996-01-01T00:00:00Z,LP2,Sensor / controller,protective_stop,no,UCI LP2 class=normal (normal/ok),normal,81.0
+LP2-002,1996-01-01T00:00:00Z,LP2,Sensor / controller,protective_stop,no,UCI LP2 class=normal (normal/ok),normal,93.0
+LP2-003,1996-01-01T00:00:00Z,LP2,Sensor / controller,protective_stop,no,UCI LP2 class=normal (normal/ok),normal,87.0
+LP2-004,1996-01-01T00:00:00Z,LP2,Sensor / controller,protective_stop,no,UCI LP2 class=normal (normal/ok),normal,92.0
+LP2-005,1996-01-01T00:00:00Z,LP2,Sensor / controller,protective_stop,no,UCI LP2 class=normal (normal/ok),normal,90.0
+LP2-006,1996-01-01T00:00:00Z,LP2,Sensor / controller,protective_stop,no,UCI LP2 class=normal (normal/ok),normal,85.0
+LP2-007,1996-01-01T00:00:00Z,LP2,Sensor / controller,protective_stop,no,UCI LP2 class=normal (normal/ok),normal,84.0
+LP2-008,1996-01-01T00:00:00Z,LP2,Sensor / controller,protective_stop,no,UCI LP2 class=normal (normal/ok),normal,81.0
+LP2-009,1996-01-01T00:00:00Z,LP2,Sensor / controller,protective_stop,no,UCI LP2 class=normal (normal/ok),normal,84.0
+LP2-010,1996-01-01T00:00:00Z,LP2,Sensor / controller,protective_stop,no,UCI LP2 class=normal (normal/ok),normal,85.0
+LP2-011,1996-01-01T00:00:00Z,LP2,Sensor / controller,protective_stop,no,UCI LP2 class=normal (normal/ok),normal,87.0
+LP2-012,1996-01-01T00:00:00Z,LP2,Sensor / controller,protective_stop,no,UCI LP2 class=normal (normal/ok),normal,87.0
+LP2-013,1996-01-01T00:00:00Z,LP2,Sensor / controller,protective_stop,no,UCI LP2 class=normal (normal/ok),normal,87.0
+LP2-014,1996-01-01T00:00:00Z,LP2,Sensor / controller,protective_stop,no,UCI LP2 class=normal (normal/ok),normal,91.0
+LP2-015,1996-01-01T00:00:00Z,LP2,Sensor / controller,protective_stop,no,UCI LP2 class=normal (normal/ok),normal,89.0
+LP2-016,1996-01-01T00:00:00Z,LP2,Sensor / controller,protective_stop,no,UCI LP2 class=normal (normal/ok),normal,85.0
+LP2-017,1996-01-01T00:00:00Z,LP2,Sensor / controller,protective_stop,no,UCI LP2 class=normal (normal/ok),normal,85.0
+LP2-018,1996-01-01T00:00:00Z,LP2,Sensor / controller,protective_stop,no,UCI LP2 class=normal (normal/ok),normal,82.0
+LP2-019,1996-01-01T00:00:00Z,LP2,Sensor / controller,protective_stop,no,UCI LP2 class=normal (normal/ok),normal,82.0
+LP2-020,1996-01-01T00:00:00Z,LP2,Sensor / controller,protective_stop,no,UCI LP2 class=normal (normal/ok),normal,89.0
+LP2-021-position_drift,1996-01-01T00:00:00Z,LP2,Sensor / controller,position_drift,yes,Mapped from UCI LP2 failure_class=back_col; force_absmax=184.0,back_col,184.0
+LP2-021-unexpected_motion,1996-01-01T00:00:00Z,LP2,Sensor / controller,unexpected_motion,yes,Mapped from UCI LP2 failure_class=back_col; force_absmax=184.0,back_col,184.0
+LP2-022-position_drift,1996-01-01T00:00:00Z,LP2,Sensor / controller,position_drift,yes,Mapped from UCI LP2 failure_class=front_col; force_absmax=361.0,front_col,361.0
+LP2-022-unexpected_motion,1996-01-01T00:00:00Z,LP2,Sensor / controller,unexpected_motion,yes,Mapped from UCI LP2 failure_class=front_col; force_absmax=361.0,front_col,361.0
+LP2-023-position_drift,1996-01-01T00:00:00Z,LP2,Sensor / controller,position_drift,yes,Mapped from UCI LP2 failure_class=right_col; force_absmax=141.0,right_col,141.0
+LP2-023-joint_noise,1996-01-01T00:00:00Z,LP2,Sensor / controller,joint_noise,yes,Mapped from UCI LP2 failure_class=right_col; force_absmax=141.0,right_col,141.0
+LP2-024-position_drift,1996-01-01T00:00:00Z,LP2,Sensor / controller,position_drift,yes,Mapped from UCI LP2 failure_class=left_col; force_absmax=131.0,left_col,131.0
+LP2-024-joint_noise,1996-01-01T00:00:00Z,LP2,Sensor / controller,joint_noise,yes,Mapped from UCI LP2 failure_class=left_col; force_absmax=131.0,left_col,131.0
+LP2-025-position_drift,1996-01-01T00:00:00Z,LP2,Sensor / controller,position_drift,yes,Mapped from UCI LP2 failure_class=left_col; force_absmax=122.0,left_col,122.0
+LP2-025-joint_noise,1996-01-01T00:00:00Z,LP2,Sensor / controller,joint_noise,yes,Mapped from UCI LP2 failure_class=left_col; force_absmax=122.0,left_col,122.0
+LP2-026-position_drift,1996-01-01T00:00:00Z,LP2,Sensor / controller,position_drift,yes,Mapped from UCI LP2 failure_class=left_col; force_absmax=89.0,left_col,89.0
+LP2-026-joint_noise,1996-01-01T00:00:00Z,LP2,Sensor / controller,joint_noise,yes,Mapped from UCI LP2 failure_class=left_col; force_absmax=89.0,left_col,89.0
+LP2-027-position_drift,1996-01-01T00:00:00Z,LP2,Sensor / controller,position_drift,yes,Mapped from UCI LP2 failure_class=right_col; force_absmax=87.0,right_col,87.0
+LP2-027-joint_noise,1996-01-01T00:00:00Z,LP2,Sensor / controller,joint_noise,yes,Mapped from UCI LP2 failure_class=right_col; force_absmax=87.0,right_col,87.0
+LP2-028-position_drift,1996-01-01T00:00:00Z,LP2,Sensor / controller,position_drift,yes,Mapped from UCI LP2 failure_class=left_col; force_absmax=87.0,left_col,87.0
+LP2-028-joint_noise,1996-01-01T00:00:00Z,LP2,Sensor / controller,joint_noise,yes,Mapped from UCI LP2 failure_class=left_col; force_absmax=87.0,left_col,87.0
+LP2-029-position_drift,1996-01-01T00:00:00Z,LP2,Sensor / controller,position_drift,yes,Mapped from UCI LP2 failure_class=left_col; force_absmax=86.0,left_col,86.0
+LP2-029-joint_noise,1996-01-01T00:00:00Z,LP2,Sensor / controller,joint_noise,yes,Mapped from UCI LP2 failure_class=left_col; force_absmax=86.0,left_col,86.0
+LP2-030-position_drift,1996-01-01T00:00:00Z,LP2,Sensor / controller,position_drift,yes,Mapped from UCI LP2 failure_class=left_col; force_absmax=97.0,left_col,97.0
+LP2-030-joint_noise,1996-01-01T00:00:00Z,LP2,Sensor / controller,joint_noise,yes,Mapped from UCI LP2 failure_class=left_col; force_absmax=97.0,left_col,97.0
+LP2-031-position_drift,1996-01-01T00:00:00Z,LP2,Sensor / controller,position_drift,yes,Mapped from UCI LP2 failure_class=left_col; force_absmax=102.0,left_col,102.0
+LP2-031-joint_noise,1996-01-01T00:00:00Z,LP2,Sensor / controller,joint_noise,yes,Mapped from UCI LP2 failure_class=left_col; force_absmax=102.0,left_col,102.0
+LP2-032-position_drift,1996-01-01T00:00:00Z,LP2,Sensor / controller,position_drift,yes,Mapped from UCI LP2 failure_class=left_col; force_absmax=96.0,left_col,96.0
+LP2-032-joint_noise,1996-01-01T00:00:00Z,LP2,Sensor / controller,joint_noise,yes,Mapped from UCI LP2 failure_class=left_col; force_absmax=96.0,left_col,96.0
+LP2-034-position_drift,1996-01-01T00:00:00Z,LP2,Sensor / controller,position_drift,yes,Mapped from UCI LP2 failure_class=right_col; force_absmax=136.0,right_col,136.0
+LP2-034-joint_noise,1996-01-01T00:00:00Z,LP2,Sensor / controller,joint_noise,yes,Mapped from UCI LP2 failure_class=right_col; force_absmax=136.0,right_col,136.0
+LP2-036-position_drift,1996-01-01T00:00:00Z,LP2,Sensor / controller,position_drift,yes,Mapped from UCI LP2 failure_class=front_col; force_absmax=113.0,front_col,113.0
+LP2-036-unexpected_motion,1996-01-01T00:00:00Z,LP2,Sensor / controller,unexpected_motion,yes,Mapped from UCI LP2 failure_class=front_col; force_absmax=113.0,front_col,113.0
+LP2-037-position_drift,1996-01-01T00:00:00Z,LP2,Sensor / controller,position_drift,yes,Mapped from UCI LP2 failure_class=back_col; force_absmax=97.0,back_col,97.0
+LP2-037-unexpected_motion,1996-01-01T00:00:00Z,LP2,Sensor / controller,unexpected_motion,yes,Mapped from UCI LP2 failure_class=back_col; force_absmax=97.0,back_col,97.0
+LP2-038-position_drift,1996-01-01T00:00:00Z,LP2,Sensor / controller,position_drift,yes,Mapped from UCI LP2 failure_class=right_col; force_absmax=97.0,right_col,97.0
+LP2-038-joint_noise,1996-01-01T00:00:00Z,LP2,Sensor / controller,joint_noise,yes,Mapped from UCI LP2 failure_class=right_col; force_absmax=97.0,right_col,97.0
+LP2-039-position_drift,1996-01-01T00:00:00Z,LP2,Sensor / controller,position_drift,yes,Mapped from UCI LP2 failure_class=front_col; force_absmax=91.0,front_col,91.0
+LP2-039-unexpected_motion,1996-01-01T00:00:00Z,LP2,Sensor / controller,unexpected_motion,yes,Mapped from UCI LP2 failure_class=front_col; force_absmax=91.0,front_col,91.0
+LP2-040-position_drift,1996-01-01T00:00:00Z,LP2,Sensor / controller,position_drift,yes,Mapped from UCI LP2 failure_class=front_col; force_absmax=143.0,front_col,143.0
+LP2-040-unexpected_motion,1996-01-01T00:00:00Z,LP2,Sensor / controller,unexpected_motion,yes,Mapped from UCI LP2 failure_class=front_col; force_absmax=143.0,front_col,143.0
+LP2-041-position_drift,1996-01-01T00:00:00Z,LP2,Sensor / controller,position_drift,yes,Mapped from UCI LP2 failure_class=back_col; force_absmax=180.0,back_col,180.0
+LP2-041-unexpected_motion,1996-01-01T00:00:00Z,LP2,Sensor / controller,unexpected_motion,yes,Mapped from UCI LP2 failure_class=back_col; force_absmax=180.0,back_col,180.0
+LP2-042-position_drift,1996-01-01T00:00:00Z,LP2,Sensor / controller,position_drift,yes,Mapped from UCI LP2 failure_class=back_col; force_absmax=168.0,back_col,168.0
+LP2-042-unexpected_motion,1996-01-01T00:00:00Z,LP2,Sensor / controller,unexpected_motion,yes,Mapped from UCI LP2 failure_class=back_col; force_absmax=168.0,back_col,168.0
+LP2-043-position_drift,1996-01-01T00:00:00Z,LP2,Sensor / controller,position_drift,yes,Mapped from UCI LP2 failure_class=front_col; force_absmax=93.0,front_col,93.0
+LP2-043-unexpected_motion,1996-01-01T00:00:00Z,LP2,Sensor / controller,unexpected_motion,yes,Mapped from UCI LP2 failure_class=front_col; force_absmax=93.0,front_col,93.0
+LP2-044-position_drift,1996-01-01T00:00:00Z,LP2,Sensor / controller,position_drift,yes,Mapped from UCI LP2 failure_class=front_col; force_absmax=143.0,front_col,143.0
+LP2-044-unexpected_motion,1996-01-01T00:00:00Z,LP2,Sensor / controller,unexpected_motion,yes,Mapped from UCI LP2 failure_class=front_col; force_absmax=143.0,front_col,143.0
+LP2-045-position_drift,1996-01-01T00:00:00Z,LP2,Sensor / controller,position_drift,yes,Mapped from UCI LP2 failure_class=back_col; force_absmax=109.0,back_col,109.0
+LP2-045-unexpected_motion,1996-01-01T00:00:00Z,LP2,Sensor / controller,unexpected_motion,yes,Mapped from UCI LP2 failure_class=back_col; force_absmax=109.0,back_col,109.0
+LP2-047-position_drift,1996-01-01T00:00:00Z,LP2,Sensor / controller,position_drift,yes,Mapped from UCI LP2 failure_class=back_col; force_absmax=130.0,back_col,130.0
+LP2-047-unexpected_motion,1996-01-01T00:00:00Z,LP2,Sensor / controller,unexpected_motion,yes,Mapped from UCI LP2 failure_class=back_col; force_absmax=130.0,back_col,130.0
+LP3-001,1996-01-01T00:00:00Z,LP3,Sensor / controller,protective_stop,no,UCI LP3 class=ok (normal/ok),ok,81.0
+LP3-002,1996-01-01T00:00:00Z,LP3,Sensor / controller,protective_stop,no,UCI LP3 class=ok (normal/ok),ok,93.0
+LP3-003,1996-01-01T00:00:00Z,LP3,Sensor / controller,protective_stop,no,UCI LP3 class=ok (normal/ok),ok,87.0
+LP3-004,1996-01-01T00:00:00Z,LP3,Sensor / controller,protective_stop,no,UCI LP3 class=ok (normal/ok),ok,92.0
+LP3-005,1996-01-01T00:00:00Z,LP3,Sensor / controller,protective_stop,no,UCI LP3 class=ok (normal/ok),ok,90.0
+LP3-006,1996-01-01T00:00:00Z,LP3,Sensor / controller,protective_stop,no,UCI LP3 class=ok (normal/ok),ok,85.0
+LP3-007,1996-01-01T00:00:00Z,LP3,Sensor / controller,protective_stop,no,UCI LP3 class=ok (normal/ok),ok,84.0
+LP3-008,1996-01-01T00:00:00Z,LP3,Sensor / controller,protective_stop,no,UCI LP3 class=ok (normal/ok),ok,81.0
+LP3-009,1996-01-01T00:00:00Z,LP3,Sensor / controller,protective_stop,no,UCI LP3 class=ok (normal/ok),ok,84.0
+LP3-010,1996-01-01T00:00:00Z,LP3,Sensor / controller,protective_stop,no,UCI LP3 class=ok (normal/ok),ok,85.0
+LP3-011,1996-01-01T00:00:00Z,LP3,Sensor / controller,protective_stop,no,UCI LP3 class=ok (normal/ok),ok,87.0
+LP3-012,1996-01-01T00:00:00Z,LP3,Sensor / controller,protective_stop,no,UCI LP3 class=ok (normal/ok),ok,87.0
+LP3-013,1996-01-01T00:00:00Z,LP3,Sensor / controller,protective_stop,no,UCI LP3 class=ok (normal/ok),ok,87.0
+LP3-014,1996-01-01T00:00:00Z,LP3,Sensor / controller,protective_stop,no,UCI LP3 class=ok (normal/ok),ok,91.0
+LP3-015,1996-01-01T00:00:00Z,LP3,Sensor / controller,protective_stop,no,UCI LP3 class=ok (normal/ok),ok,89.0
+LP3-016,1996-01-01T00:00:00Z,LP3,Sensor / controller,protective_stop,no,UCI LP3 class=ok (normal/ok),ok,85.0
+LP3-017,1996-01-01T00:00:00Z,LP3,Sensor / controller,protective_stop,no,UCI LP3 class=ok (normal/ok),ok,85.0
+LP3-018,1996-01-01T00:00:00Z,LP3,Sensor / controller,protective_stop,no,UCI LP3 class=ok (normal/ok),ok,82.0
+LP3-019,1996-01-01T00:00:00Z,LP3,Sensor / controller,protective_stop,no,UCI LP3 class=ok (normal/ok),ok,82.0
+LP3-020,1996-01-01T00:00:00Z,LP3,Sensor / controller,protective_stop,no,UCI LP3 class=ok (normal/ok),ok,89.0
+LP3-021-grip_loss,1996-01-01T00:00:00Z,LP3,Sensor / controller,grip_loss,yes,Mapped from UCI LP3 failure_class=moved; force_absmax=184.0,moved,184.0
+LP3-021-position_drift,1996-01-01T00:00:00Z,LP3,Sensor / controller,position_drift,yes,Mapped from UCI LP3 failure_class=moved; force_absmax=184.0,moved,184.0
+LP3-022-grip_loss,1996-01-01T00:00:00Z,LP3,Sensor / controller,grip_loss,yes,Mapped from UCI LP3 failure_class=moved; force_absmax=361.0,moved,361.0
+LP3-022-position_drift,1996-01-01T00:00:00Z,LP3,Sensor / controller,position_drift,yes,Mapped from UCI LP3 failure_class=moved; force_absmax=361.0,moved,361.0
+LP3-023-position_drift,1996-01-01T00:00:00Z,LP3,Sensor / controller,position_drift,yes,Mapped from UCI LP3 failure_class=slightly_moved; force_absmax=141.0,slightly_moved,141.0
+LP3-024-grip_loss,1996-01-01T00:00:00Z,LP3,Sensor / controller,grip_loss,yes,Mapped from UCI LP3 failure_class=moved; force_absmax=131.0,moved,131.0
+LP3-024-position_drift,1996-01-01T00:00:00Z,LP3,Sensor / controller,position_drift,yes,Mapped from UCI LP3 failure_class=moved; force_absmax=131.0,moved,131.0
+LP3-025-position_drift,1996-01-01T00:00:00Z,LP3,Sensor / controller,position_drift,yes,Mapped from UCI LP3 failure_class=slightly_moved; force_absmax=122.0,slightly_moved,122.0
+LP3-026-position_drift,1996-01-01T00:00:00Z,LP3,Sensor / controller,position_drift,yes,Mapped from UCI LP3 failure_class=slightly_moved; force_absmax=89.0,slightly_moved,89.0
+LP3-027-position_drift,1996-01-01T00:00:00Z,LP3,Sensor / controller,position_drift,yes,Mapped from UCI LP3 failure_class=slightly_moved; force_absmax=87.0,slightly_moved,87.0
+LP3-028-position_drift,1996-01-01T00:00:00Z,LP3,Sensor / controller,position_drift,yes,Mapped from UCI LP3 failure_class=slightly_moved; force_absmax=87.0,slightly_moved,87.0
+LP3-029-position_drift,1996-01-01T00:00:00Z,LP3,Sensor / controller,position_drift,yes,Mapped from UCI LP3 failure_class=slightly_moved; force_absmax=86.0,slightly_moved,86.0
+LP3-030-grip_loss,1996-01-01T00:00:00Z,LP3,Sensor / controller,grip_loss,yes,Mapped from UCI LP3 failure_class=moved; force_absmax=97.0,moved,97.0
+LP3-030-position_drift,1996-01-01T00:00:00Z,LP3,Sensor / controller,position_drift,yes,Mapped from UCI LP3 failure_class=moved; force_absmax=97.0,moved,97.0
+LP3-031-position_drift,1996-01-01T00:00:00Z,LP3,Sensor / controller,position_drift,yes,Mapped from UCI LP3 failure_class=slightly_moved; force_absmax=102.0,slightly_moved,102.0
+LP3-032-grip_loss,1996-01-01T00:00:00Z,LP3,Sensor / controller,grip_loss,yes,Mapped from UCI LP3 failure_class=moved; force_absmax=96.0,moved,96.0
+LP3-032-position_drift,1996-01-01T00:00:00Z,LP3,Sensor / controller,position_drift,yes,Mapped from UCI LP3 failure_class=moved; force_absmax=96.0,moved,96.0
+LP3-034-grip_loss,1996-01-01T00:00:00Z,LP3,Sensor / controller,grip_loss,yes,Mapped from UCI LP3 failure_class=moved; force_absmax=136.0,moved,136.0
+LP3-034-position_drift,1996-01-01T00:00:00Z,LP3,Sensor / controller,position_drift,yes,Mapped from UCI LP3 failure_class=moved; force_absmax=136.0,moved,136.0
+LP3-036-grip_loss,1996-01-01T00:00:00Z,LP3,Sensor / controller,grip_loss,yes,Mapped from UCI LP3 failure_class=lost; force_absmax=113.0,lost,113.0
+LP3-036-pressure_low,1996-01-01T00:00:00Z,LP3,Sensor / controller,pressure_low,yes,Mapped from UCI LP3 failure_class=lost; force_absmax=113.0,lost,113.0
+LP3-037-grip_loss,1996-01-01T00:00:00Z,LP3,Sensor / controller,grip_loss,yes,Mapped from UCI LP3 failure_class=moved; force_absmax=97.0,moved,97.0
+LP3-037-position_drift,1996-01-01T00:00:00Z,LP3,Sensor / controller,position_drift,yes,Mapped from UCI LP3 failure_class=moved; force_absmax=97.0,moved,97.0
+LP3-038-grip_loss,1996-01-01T00:00:00Z,LP3,Sensor / controller,grip_loss,yes,Mapped from UCI LP3 failure_class=moved; force_absmax=97.0,moved,97.0
+LP3-038-position_drift,1996-01-01T00:00:00Z,LP3,Sensor / controller,position_drift,yes,Mapped from UCI LP3 failure_class=moved; force_absmax=97.0,moved,97.0
+LP3-039-grip_loss,1996-01-01T00:00:00Z,LP3,Sensor / controller,grip_loss,yes,Mapped from UCI LP3 failure_class=moved; force_absmax=91.0,moved,91.0
+LP3-039-position_drift,1996-01-01T00:00:00Z,LP3,Sensor / controller,position_drift,yes,Mapped from UCI LP3 failure_class=moved; force_absmax=91.0,moved,91.0
+LP3-040-grip_loss,1996-01-01T00:00:00Z,LP3,Sensor / controller,grip_loss,yes,Mapped from UCI LP3 failure_class=moved; force_absmax=143.0,moved,143.0
+LP3-040-position_drift,1996-01-01T00:00:00Z,LP3,Sensor / controller,position_drift,yes,Mapped from UCI LP3 failure_class=moved; force_absmax=143.0,moved,143.0
+LP3-041-grip_loss,1996-01-01T00:00:00Z,LP3,Sensor / controller,grip_loss,yes,Mapped from UCI LP3 failure_class=moved; force_absmax=180.0,moved,180.0
+LP3-041-position_drift,1996-01-01T00:00:00Z,LP3,Sensor / controller,position_drift,yes,Mapped from UCI LP3 failure_class=moved; force_absmax=180.0,moved,180.0
+LP3-042-grip_loss,1996-01-01T00:00:00Z,LP3,Sensor / controller,grip_loss,yes,Mapped from UCI LP3 failure_class=lost; force_absmax=168.0,lost,168.0
+LP3-042-pressure_low,1996-01-01T00:00:00Z,LP3,Sensor / controller,pressure_low,yes,Mapped from UCI LP3 failure_class=lost; force_absmax=168.0,lost,168.0
+LP3-043-grip_loss,1996-01-01T00:00:00Z,LP3,Sensor / controller,grip_loss,yes,Mapped from UCI LP3 failure_class=moved; force_absmax=93.0,moved,93.0
+LP3-043-position_drift,1996-01-01T00:00:00Z,LP3,Sensor / controller,position_drift,yes,Mapped from UCI LP3 failure_class=moved; force_absmax=93.0,moved,93.0
+LP3-044-grip_loss,1996-01-01T00:00:00Z,LP3,Sensor / controller,grip_loss,yes,Mapped from UCI LP3 failure_class=lost; force_absmax=143.0,lost,143.0
+LP3-044-pressure_low,1996-01-01T00:00:00Z,LP3,Sensor / controller,pressure_low,yes,Mapped from UCI LP3 failure_class=lost; force_absmax=143.0,lost,143.0
+LP3-045-position_drift,1996-01-01T00:00:00Z,LP3,Sensor / controller,position_drift,yes,Mapped from UCI LP3 failure_class=slightly_moved; force_absmax=109.0,slightly_moved,109.0
+LP3-047-grip_loss,1996-01-01T00:00:00Z,LP3,Sensor / controller,grip_loss,yes,Mapped from UCI LP3 failure_class=moved; force_absmax=130.0,moved,130.0
+LP3-047-position_drift,1996-01-01T00:00:00Z,LP3,Sensor / controller,position_drift,yes,Mapped from UCI LP3 failure_class=moved; force_absmax=130.0,moved,130.0
+LP4-001,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,no,UCI LP4 class=normal (normal/ok),normal,29.0
+LP4-002,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,no,UCI LP4 class=normal (normal/ok),normal,28.0
+LP4-003,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,no,UCI LP4 class=normal (normal/ok),normal,41.0
+LP4-004,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,no,UCI LP4 class=normal (normal/ok),normal,32.0
+LP4-005,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,no,UCI LP4 class=normal (normal/ok),normal,38.0
+LP4-006,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,no,UCI LP4 class=normal (normal/ok),normal,32.0
+LP4-007,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,no,UCI LP4 class=normal (normal/ok),normal,36.0
+LP4-008,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,no,UCI LP4 class=normal (normal/ok),normal,33.0
+LP4-009,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,no,UCI LP4 class=normal (normal/ok),normal,32.0
+LP4-010,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,no,UCI LP4 class=normal (normal/ok),normal,32.0
+LP4-011,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,no,UCI LP4 class=normal (normal/ok),normal,28.0
+LP4-012,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,no,UCI LP4 class=normal (normal/ok),normal,28.0
+LP4-013,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,no,UCI LP4 class=normal (normal/ok),normal,27.0
+LP4-014,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,no,UCI LP4 class=normal (normal/ok),normal,27.0
+LP4-015,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,no,UCI LP4 class=normal (normal/ok),normal,27.0
+LP4-016,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,no,UCI LP4 class=normal (normal/ok),normal,29.0
+LP4-017,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,no,UCI LP4 class=normal (normal/ok),normal,26.0
+LP4-018,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,no,UCI LP4 class=normal (normal/ok),normal,29.0
+LP4-019,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,no,UCI LP4 class=normal (normal/ok),normal,22.0
+LP4-020,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,no,UCI LP4 class=normal (normal/ok),normal,18.0
+LP4-021,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,no,UCI LP4 class=normal (normal/ok),normal,17.0
+LP4-022,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,no,UCI LP4 class=normal (normal/ok),normal,14.0
+LP4-023,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,no,UCI LP4 class=normal (normal/ok),normal,16.0
+LP4-024,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,no,UCI LP4 class=normal (normal/ok),normal,17.0
+LP4-025-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=123.0,collision,123.0
+LP4-025-position_drift,1996-01-01T00:00:00Z,LP4,Sensor / controller,position_drift,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=123.0,collision,123.0
+LP4-026-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=100.0,collision,100.0
+LP4-026-position_drift,1996-01-01T00:00:00Z,LP4,Sensor / controller,position_drift,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=100.0,collision,100.0
+LP4-027-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=49.0,collision,49.0
+LP4-027-position_drift,1996-01-01T00:00:00Z,LP4,Sensor / controller,position_drift,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=49.0,collision,49.0
+LP4-028-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=26.0,collision,26.0
+LP4-028-position_drift,1996-01-01T00:00:00Z,LP4,Sensor / controller,position_drift,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=26.0,collision,26.0
+LP4-029-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=36.0,collision,36.0
+LP4-029-position_drift,1996-01-01T00:00:00Z,LP4,Sensor / controller,position_drift,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=36.0,collision,36.0
+LP4-030-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=20.0,collision,20.0
+LP4-030-position_drift,1996-01-01T00:00:00Z,LP4,Sensor / controller,position_drift,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=20.0,collision,20.0
+LP4-031-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=36.0,collision,36.0
+LP4-031-position_drift,1996-01-01T00:00:00Z,LP4,Sensor / controller,position_drift,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=36.0,collision,36.0
+LP4-032-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=23.0,collision,23.0
+LP4-032-position_drift,1996-01-01T00:00:00Z,LP4,Sensor / controller,position_drift,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=23.0,collision,23.0
+LP4-033-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=29.0,collision,29.0
+LP4-033-position_drift,1996-01-01T00:00:00Z,LP4,Sensor / controller,position_drift,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=29.0,collision,29.0
+LP4-034-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=59.0,collision,59.0
+LP4-034-position_drift,1996-01-01T00:00:00Z,LP4,Sensor / controller,position_drift,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=59.0,collision,59.0
+LP4-035-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=240.0,collision,240.0
+LP4-035-position_drift,1996-01-01T00:00:00Z,LP4,Sensor / controller,position_drift,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=240.0,collision,240.0
+LP4-036-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=91.0,collision,91.0
+LP4-036-position_drift,1996-01-01T00:00:00Z,LP4,Sensor / controller,position_drift,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=91.0,collision,91.0
+LP4-037-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=31.0,collision,31.0
+LP4-037-position_drift,1996-01-01T00:00:00Z,LP4,Sensor / controller,position_drift,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=31.0,collision,31.0
+LP4-038-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=55.0,collision,55.0
+LP4-038-position_drift,1996-01-01T00:00:00Z,LP4,Sensor / controller,position_drift,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=55.0,collision,55.0
+LP4-039-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=27.0,collision,27.0
+LP4-039-position_drift,1996-01-01T00:00:00Z,LP4,Sensor / controller,position_drift,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=27.0,collision,27.0
+LP4-041-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=32.0,collision,32.0
+LP4-041-position_drift,1996-01-01T00:00:00Z,LP4,Sensor / controller,position_drift,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=32.0,collision,32.0
+LP4-042-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=24.0,collision,24.0
+LP4-042-position_drift,1996-01-01T00:00:00Z,LP4,Sensor / controller,position_drift,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=24.0,collision,24.0
+LP4-043-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=165.0,collision,165.0
+LP4-043-position_drift,1996-01-01T00:00:00Z,LP4,Sensor / controller,position_drift,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=165.0,collision,165.0
+LP4-044-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=39.0,collision,39.0
+LP4-044-position_drift,1996-01-01T00:00:00Z,LP4,Sensor / controller,position_drift,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=39.0,collision,39.0
+LP4-046-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=79.0,collision,79.0
+LP4-046-position_drift,1996-01-01T00:00:00Z,LP4,Sensor / controller,position_drift,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=79.0,collision,79.0
+LP4-047-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=14.0,collision,14.0
+LP4-047-position_drift,1996-01-01T00:00:00Z,LP4,Sensor / controller,position_drift,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=14.0,collision,14.0
+LP4-048-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=30.0,collision,30.0
+LP4-048-position_drift,1996-01-01T00:00:00Z,LP4,Sensor / controller,position_drift,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=30.0,collision,30.0
+LP4-049-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=42.0,collision,42.0
+LP4-049-position_drift,1996-01-01T00:00:00Z,LP4,Sensor / controller,position_drift,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=42.0,collision,42.0
+LP4-050-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=74.0,collision,74.0
+LP4-050-position_drift,1996-01-01T00:00:00Z,LP4,Sensor / controller,position_drift,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=74.0,collision,74.0
+LP4-051-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=34.0,collision,34.0
+LP4-051-position_drift,1996-01-01T00:00:00Z,LP4,Sensor / controller,position_drift,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=34.0,collision,34.0
+LP4-052-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=188.0,collision,188.0
+LP4-052-position_drift,1996-01-01T00:00:00Z,LP4,Sensor / controller,position_drift,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=188.0,collision,188.0
+LP4-053-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=116.0,collision,116.0
+LP4-053-position_drift,1996-01-01T00:00:00Z,LP4,Sensor / controller,position_drift,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=116.0,collision,116.0
+LP4-054-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=obstruction; force_absmax=2957.0,obstruction,2957.0
+LP4-054-joint_friction,1996-01-01T00:00:00Z,LP4,Sensor / controller,joint_friction,yes,Mapped from UCI LP4 failure_class=obstruction; force_absmax=2957.0,obstruction,2957.0
+LP4-055-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=1175.0,collision,1175.0
+LP4-055-position_drift,1996-01-01T00:00:00Z,LP4,Sensor / controller,position_drift,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=1175.0,collision,1175.0
+LP4-056-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=obstruction; force_absmax=3161.0,obstruction,3161.0
+LP4-056-joint_friction,1996-01-01T00:00:00Z,LP4,Sensor / controller,joint_friction,yes,Mapped from UCI LP4 failure_class=obstruction; force_absmax=3161.0,obstruction,3161.0
+LP4-057-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=obstruction; force_absmax=2233.0,obstruction,2233.0
+LP4-057-joint_friction,1996-01-01T00:00:00Z,LP4,Sensor / controller,joint_friction,yes,Mapped from UCI LP4 failure_class=obstruction; force_absmax=2233.0,obstruction,2233.0
+LP4-058-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=obstruction; force_absmax=1384.0,obstruction,1384.0
+LP4-058-joint_friction,1996-01-01T00:00:00Z,LP4,Sensor / controller,joint_friction,yes,Mapped from UCI LP4 failure_class=obstruction; force_absmax=1384.0,obstruction,1384.0
+LP4-059-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=obstruction; force_absmax=2966.0,obstruction,2966.0
+LP4-059-joint_friction,1996-01-01T00:00:00Z,LP4,Sensor / controller,joint_friction,yes,Mapped from UCI LP4 failure_class=obstruction; force_absmax=2966.0,obstruction,2966.0
+LP4-060-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=2112.0,collision,2112.0
+LP4-060-position_drift,1996-01-01T00:00:00Z,LP4,Sensor / controller,position_drift,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=2112.0,collision,2112.0
+LP4-061-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=1387.0,collision,1387.0
+LP4-061-position_drift,1996-01-01T00:00:00Z,LP4,Sensor / controller,position_drift,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=1387.0,collision,1387.0
+LP4-062-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=655.0,collision,655.0
+LP4-062-position_drift,1996-01-01T00:00:00Z,LP4,Sensor / controller,position_drift,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=655.0,collision,655.0
+LP4-063-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=obstruction; force_absmax=3348.0,obstruction,3348.0
+LP4-063-joint_friction,1996-01-01T00:00:00Z,LP4,Sensor / controller,joint_friction,yes,Mapped from UCI LP4 failure_class=obstruction; force_absmax=3348.0,obstruction,3348.0
+LP4-064-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=obstruction; force_absmax=2305.0,obstruction,2305.0
+LP4-064-joint_friction,1996-01-01T00:00:00Z,LP4,Sensor / controller,joint_friction,yes,Mapped from UCI LP4 failure_class=obstruction; force_absmax=2305.0,obstruction,2305.0
+LP4-065-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=obstruction; force_absmax=3557.0,obstruction,3557.0
+LP4-065-joint_friction,1996-01-01T00:00:00Z,LP4,Sensor / controller,joint_friction,yes,Mapped from UCI LP4 failure_class=obstruction; force_absmax=3557.0,obstruction,3557.0
+LP4-067-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=obstruction; force_absmax=169.0,obstruction,169.0
+LP4-067-joint_friction,1996-01-01T00:00:00Z,LP4,Sensor / controller,joint_friction,yes,Mapped from UCI LP4 failure_class=obstruction; force_absmax=169.0,obstruction,169.0
+LP4-068-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=406.0,collision,406.0
+LP4-068-position_drift,1996-01-01T00:00:00Z,LP4,Sensor / controller,position_drift,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=406.0,collision,406.0
+LP4-069-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=obstruction; force_absmax=3235.0,obstruction,3235.0
+LP4-069-joint_friction,1996-01-01T00:00:00Z,LP4,Sensor / controller,joint_friction,yes,Mapped from UCI LP4 failure_class=obstruction; force_absmax=3235.0,obstruction,3235.0
+LP4-070-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=54.0,collision,54.0
+LP4-070-position_drift,1996-01-01T00:00:00Z,LP4,Sensor / controller,position_drift,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=54.0,collision,54.0
+LP4-071-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=obstruction; force_absmax=2757.0,obstruction,2757.0
+LP4-071-joint_friction,1996-01-01T00:00:00Z,LP4,Sensor / controller,joint_friction,yes,Mapped from UCI LP4 failure_class=obstruction; force_absmax=2757.0,obstruction,2757.0
+LP4-072-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=201.0,collision,201.0
+LP4-072-position_drift,1996-01-01T00:00:00Z,LP4,Sensor / controller,position_drift,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=201.0,collision,201.0
+LP4-073-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=obstruction; force_absmax=3451.0,obstruction,3451.0
+LP4-073-joint_friction,1996-01-01T00:00:00Z,LP4,Sensor / controller,joint_friction,yes,Mapped from UCI LP4 failure_class=obstruction; force_absmax=3451.0,obstruction,3451.0
+LP4-074-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=obstruction; force_absmax=526.0,obstruction,526.0
+LP4-074-joint_friction,1996-01-01T00:00:00Z,LP4,Sensor / controller,joint_friction,yes,Mapped from UCI LP4 failure_class=obstruction; force_absmax=526.0,obstruction,526.0
+LP4-075-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=122.0,collision,122.0
+LP4-075-position_drift,1996-01-01T00:00:00Z,LP4,Sensor / controller,position_drift,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=122.0,collision,122.0
+LP4-076-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=obstruction; force_absmax=3277.0,obstruction,3277.0
+LP4-076-joint_friction,1996-01-01T00:00:00Z,LP4,Sensor / controller,joint_friction,yes,Mapped from UCI LP4 failure_class=obstruction; force_absmax=3277.0,obstruction,3277.0
+LP4-077-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=19.0,collision,19.0
+LP4-077-position_drift,1996-01-01T00:00:00Z,LP4,Sensor / controller,position_drift,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=19.0,collision,19.0
+LP4-078-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=obstruction; force_absmax=2325.0,obstruction,2325.0
+LP4-078-joint_friction,1996-01-01T00:00:00Z,LP4,Sensor / controller,joint_friction,yes,Mapped from UCI LP4 failure_class=obstruction; force_absmax=2325.0,obstruction,2325.0
+LP4-079-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=73.0,collision,73.0
+LP4-079-position_drift,1996-01-01T00:00:00Z,LP4,Sensor / controller,position_drift,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=73.0,collision,73.0
+LP4-080-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=obstruction; force_absmax=2992.0,obstruction,2992.0
+LP4-080-joint_friction,1996-01-01T00:00:00Z,LP4,Sensor / controller,joint_friction,yes,Mapped from UCI LP4 failure_class=obstruction; force_absmax=2992.0,obstruction,2992.0
+LP4-081-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=931.0,collision,931.0
+LP4-081-position_drift,1996-01-01T00:00:00Z,LP4,Sensor / controller,position_drift,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=931.0,collision,931.0
+LP4-082-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=701.0,collision,701.0
+LP4-082-position_drift,1996-01-01T00:00:00Z,LP4,Sensor / controller,position_drift,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=701.0,collision,701.0
+LP4-083-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=191.0,collision,191.0
+LP4-083-position_drift,1996-01-01T00:00:00Z,LP4,Sensor / controller,position_drift,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=191.0,collision,191.0
+LP4-084-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=141.0,collision,141.0
+LP4-084-position_drift,1996-01-01T00:00:00Z,LP4,Sensor / controller,position_drift,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=141.0,collision,141.0
+LP4-085-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=obstruction; force_absmax=2303.0,obstruction,2303.0
+LP4-085-joint_friction,1996-01-01T00:00:00Z,LP4,Sensor / controller,joint_friction,yes,Mapped from UCI LP4 failure_class=obstruction; force_absmax=2303.0,obstruction,2303.0
+LP4-086-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=obstruction; force_absmax=2460.0,obstruction,2460.0
+LP4-086-joint_friction,1996-01-01T00:00:00Z,LP4,Sensor / controller,joint_friction,yes,Mapped from UCI LP4 failure_class=obstruction; force_absmax=2460.0,obstruction,2460.0
+LP4-087-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=obstruction; force_absmax=2950.0,obstruction,2950.0
+LP4-087-joint_friction,1996-01-01T00:00:00Z,LP4,Sensor / controller,joint_friction,yes,Mapped from UCI LP4 failure_class=obstruction; force_absmax=2950.0,obstruction,2950.0
+LP4-088-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=58.0,collision,58.0
+LP4-088-position_drift,1996-01-01T00:00:00Z,LP4,Sensor / controller,position_drift,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=58.0,collision,58.0
+LP4-089-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=62.0,collision,62.0
+LP4-089-position_drift,1996-01-01T00:00:00Z,LP4,Sensor / controller,position_drift,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=62.0,collision,62.0
+LP4-090-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=140.0,collision,140.0
+LP4-090-position_drift,1996-01-01T00:00:00Z,LP4,Sensor / controller,position_drift,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=140.0,collision,140.0
+LP4-091-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=45.0,collision,45.0
+LP4-091-position_drift,1996-01-01T00:00:00Z,LP4,Sensor / controller,position_drift,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=45.0,collision,45.0
+LP4-092-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=185.0,collision,185.0
+LP4-092-position_drift,1996-01-01T00:00:00Z,LP4,Sensor / controller,position_drift,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=185.0,collision,185.0
+LP4-093-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=45.0,collision,45.0
+LP4-093-position_drift,1996-01-01T00:00:00Z,LP4,Sensor / controller,position_drift,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=45.0,collision,45.0
+LP4-094-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=138.0,collision,138.0
+LP4-094-position_drift,1996-01-01T00:00:00Z,LP4,Sensor / controller,position_drift,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=138.0,collision,138.0
+LP4-095-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=49.0,collision,49.0
+LP4-095-position_drift,1996-01-01T00:00:00Z,LP4,Sensor / controller,position_drift,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=49.0,collision,49.0
+LP4-096-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=58.0,collision,58.0
+LP4-096-position_drift,1996-01-01T00:00:00Z,LP4,Sensor / controller,position_drift,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=58.0,collision,58.0
+LP4-097-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=obstruction; force_absmax=1615.0,obstruction,1615.0
+LP4-097-joint_friction,1996-01-01T00:00:00Z,LP4,Sensor / controller,joint_friction,yes,Mapped from UCI LP4 failure_class=obstruction; force_absmax=1615.0,obstruction,1615.0
+LP4-098-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=38.0,collision,38.0
+LP4-098-position_drift,1996-01-01T00:00:00Z,LP4,Sensor / controller,position_drift,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=38.0,collision,38.0
+LP4-099-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=496.0,collision,496.0
+LP4-099-position_drift,1996-01-01T00:00:00Z,LP4,Sensor / controller,position_drift,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=496.0,collision,496.0
+LP4-100-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=182.0,collision,182.0
+LP4-100-position_drift,1996-01-01T00:00:00Z,LP4,Sensor / controller,position_drift,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=182.0,collision,182.0
+LP4-101-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=27.0,collision,27.0
+LP4-101-position_drift,1996-01-01T00:00:00Z,LP4,Sensor / controller,position_drift,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=27.0,collision,27.0
+LP4-102-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=55.0,collision,55.0
+LP4-102-position_drift,1996-01-01T00:00:00Z,LP4,Sensor / controller,position_drift,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=55.0,collision,55.0
+LP4-103-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=21.0,collision,21.0
+LP4-103-position_drift,1996-01-01T00:00:00Z,LP4,Sensor / controller,position_drift,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=21.0,collision,21.0
+LP4-104-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=17.0,collision,17.0
+LP4-104-position_drift,1996-01-01T00:00:00Z,LP4,Sensor / controller,position_drift,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=17.0,collision,17.0
+LP4-105-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=120.0,collision,120.0
+LP4-105-position_drift,1996-01-01T00:00:00Z,LP4,Sensor / controller,position_drift,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=120.0,collision,120.0
+LP4-106-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=17.0,collision,17.0
+LP4-106-position_drift,1996-01-01T00:00:00Z,LP4,Sensor / controller,position_drift,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=17.0,collision,17.0
+LP4-107-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=57.0,collision,57.0
+LP4-107-position_drift,1996-01-01T00:00:00Z,LP4,Sensor / controller,position_drift,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=57.0,collision,57.0
+LP4-108-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=48.0,collision,48.0
+LP4-108-position_drift,1996-01-01T00:00:00Z,LP4,Sensor / controller,position_drift,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=48.0,collision,48.0
+LP4-109-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=22.0,collision,22.0
+LP4-109-position_drift,1996-01-01T00:00:00Z,LP4,Sensor / controller,position_drift,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=22.0,collision,22.0
+LP4-110-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=123.0,collision,123.0
+LP4-110-position_drift,1996-01-01T00:00:00Z,LP4,Sensor / controller,position_drift,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=123.0,collision,123.0
+LP4-111-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=29.0,collision,29.0
+LP4-111-position_drift,1996-01-01T00:00:00Z,LP4,Sensor / controller,position_drift,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=29.0,collision,29.0
+LP4-112-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=150.0,collision,150.0
+LP4-112-position_drift,1996-01-01T00:00:00Z,LP4,Sensor / controller,position_drift,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=150.0,collision,150.0
+LP4-113-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=43.0,collision,43.0
+LP4-113-position_drift,1996-01-01T00:00:00Z,LP4,Sensor / controller,position_drift,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=43.0,collision,43.0
+LP4-114-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=36.0,collision,36.0
+LP4-114-position_drift,1996-01-01T00:00:00Z,LP4,Sensor / controller,position_drift,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=36.0,collision,36.0
+LP4-115-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=17.0,collision,17.0
+LP4-115-position_drift,1996-01-01T00:00:00Z,LP4,Sensor / controller,position_drift,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=17.0,collision,17.0
+LP4-116-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=41.0,collision,41.0
+LP4-116-position_drift,1996-01-01T00:00:00Z,LP4,Sensor / controller,position_drift,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=41.0,collision,41.0
+LP4-117-protective_stop,1996-01-01T00:00:00Z,LP4,Sensor / controller,protective_stop,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=15.0,collision,15.0
+LP4-117-position_drift,1996-01-01T00:00:00Z,LP4,Sensor / controller,position_drift,yes,Mapped from UCI LP4 failure_class=collision; force_absmax=15.0,collision,15.0
+LP5-001,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,no,UCI LP5 class=normal (normal/ok),normal,81.0
+LP5-002,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,no,UCI LP5 class=normal (normal/ok),normal,93.0
+LP5-003,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,no,UCI LP5 class=normal (normal/ok),normal,87.0
+LP5-004,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,no,UCI LP5 class=normal (normal/ok),normal,92.0
+LP5-005,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,no,UCI LP5 class=normal (normal/ok),normal,90.0
+LP5-006,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,no,UCI LP5 class=normal (normal/ok),normal,85.0
+LP5-007,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,no,UCI LP5 class=normal (normal/ok),normal,84.0
+LP5-008,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,no,UCI LP5 class=normal (normal/ok),normal,81.0
+LP5-009,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,no,UCI LP5 class=normal (normal/ok),normal,84.0
+LP5-010,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,no,UCI LP5 class=normal (normal/ok),normal,85.0
+LP5-011,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,no,UCI LP5 class=normal (normal/ok),normal,87.0
+LP5-012,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,no,UCI LP5 class=normal (normal/ok),normal,87.0
+LP5-013,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,no,UCI LP5 class=normal (normal/ok),normal,87.0
+LP5-014,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,no,UCI LP5 class=normal (normal/ok),normal,91.0
+LP5-015,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,no,UCI LP5 class=normal (normal/ok),normal,89.0
+LP5-016,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,no,UCI LP5 class=normal (normal/ok),normal,85.0
+LP5-017,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,no,UCI LP5 class=normal (normal/ok),normal,85.0
+LP5-018,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,no,UCI LP5 class=normal (normal/ok),normal,82.0
+LP5-019,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,no,UCI LP5 class=normal (normal/ok),normal,82.0
+LP5-020,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,no,UCI LP5 class=normal (normal/ok),normal,89.0
+LP5-021-protective_stop,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,yes,Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=184.0,collision_in_tool,184.0
+LP5-021-payload_mismatch,1996-01-01T00:00:00Z,LP5,Sensor / controller,payload_mismatch,yes,Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=184.0,collision_in_tool,184.0
+LP5-022-protective_stop,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,yes,Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=361.0,collision_in_tool,361.0
+LP5-022-payload_mismatch,1996-01-01T00:00:00Z,LP5,Sensor / controller,payload_mismatch,yes,Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=361.0,collision_in_tool,361.0
+LP5-023-protective_stop,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,yes,Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=141.0,collision_in_tool,141.0
+LP5-023-payload_mismatch,1996-01-01T00:00:00Z,LP5,Sensor / controller,payload_mismatch,yes,Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=141.0,collision_in_tool,141.0
+LP5-024-protective_stop,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,yes,Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=131.0,collision_in_tool,131.0
+LP5-024-payload_mismatch,1996-01-01T00:00:00Z,LP5,Sensor / controller,payload_mismatch,yes,Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=131.0,collision_in_tool,131.0
+LP5-025-protective_stop,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,yes,Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=122.0,collision_in_tool,122.0
+LP5-025-payload_mismatch,1996-01-01T00:00:00Z,LP5,Sensor / controller,payload_mismatch,yes,Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=122.0,collision_in_tool,122.0
+LP5-026-protective_stop,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,yes,Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=89.0,collision_in_tool,89.0
+LP5-026-payload_mismatch,1996-01-01T00:00:00Z,LP5,Sensor / controller,payload_mismatch,yes,Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=89.0,collision_in_tool,89.0
+LP5-027-protective_stop,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,yes,Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=87.0,collision_in_tool,87.0
+LP5-027-payload_mismatch,1996-01-01T00:00:00Z,LP5,Sensor / controller,payload_mismatch,yes,Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=87.0,collision_in_tool,87.0
+LP5-028-protective_stop,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,yes,Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=87.0,collision_in_tool,87.0
+LP5-028-payload_mismatch,1996-01-01T00:00:00Z,LP5,Sensor / controller,payload_mismatch,yes,Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=87.0,collision_in_tool,87.0
+LP5-029-protective_stop,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,yes,Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=86.0,collision_in_tool,86.0
+LP5-029-payload_mismatch,1996-01-01T00:00:00Z,LP5,Sensor / controller,payload_mismatch,yes,Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=86.0,collision_in_tool,86.0
+LP5-030-grip_loss,1996-01-01T00:00:00Z,LP5,Sensor / controller,grip_loss,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=97.0,collision_in_part,97.0
+LP5-030-protective_stop,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=97.0,collision_in_part,97.0
+LP5-031-protective_stop,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,yes,Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=102.0,collision_in_tool,102.0
+LP5-031-payload_mismatch,1996-01-01T00:00:00Z,LP5,Sensor / controller,payload_mismatch,yes,Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=102.0,collision_in_tool,102.0
+LP5-032-protective_stop,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,yes,Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=96.0,collision_in_tool,96.0
+LP5-032-payload_mismatch,1996-01-01T00:00:00Z,LP5,Sensor / controller,payload_mismatch,yes,Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=96.0,collision_in_tool,96.0
+LP5-033-grip_loss,1996-01-01T00:00:00Z,LP5,Sensor / controller,grip_loss,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=96.0,collision_in_part,96.0
+LP5-033-protective_stop,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=96.0,collision_in_part,96.0
+LP5-034-protective_stop,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,yes,Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=136.0,collision_in_tool,136.0
+LP5-034-payload_mismatch,1996-01-01T00:00:00Z,LP5,Sensor / controller,payload_mismatch,yes,Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=136.0,collision_in_tool,136.0
+LP5-035-grip_loss,1996-01-01T00:00:00Z,LP5,Sensor / controller,grip_loss,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=136.0,collision_in_part,136.0
+LP5-035-protective_stop,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=136.0,collision_in_part,136.0
+LP5-036-grip_loss,1996-01-01T00:00:00Z,LP5,Sensor / controller,grip_loss,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=113.0,collision_in_part,113.0
+LP5-036-protective_stop,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=113.0,collision_in_part,113.0
+LP5-037-grip_loss,1996-01-01T00:00:00Z,LP5,Sensor / controller,grip_loss,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=97.0,collision_in_part,97.0
+LP5-037-protective_stop,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=97.0,collision_in_part,97.0
+LP5-038-grip_loss,1996-01-01T00:00:00Z,LP5,Sensor / controller,grip_loss,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=97.0,collision_in_part,97.0
+LP5-038-protective_stop,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=97.0,collision_in_part,97.0
+LP5-039-grip_loss,1996-01-01T00:00:00Z,LP5,Sensor / controller,grip_loss,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=91.0,collision_in_part,91.0
+LP5-039-protective_stop,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=91.0,collision_in_part,91.0
+LP5-040-grip_loss,1996-01-01T00:00:00Z,LP5,Sensor / controller,grip_loss,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=143.0,collision_in_part,143.0
+LP5-040-protective_stop,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=143.0,collision_in_part,143.0
+LP5-041-grip_loss,1996-01-01T00:00:00Z,LP5,Sensor / controller,grip_loss,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=180.0,collision_in_part,180.0
+LP5-041-protective_stop,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=180.0,collision_in_part,180.0
+LP5-042-grip_loss,1996-01-01T00:00:00Z,LP5,Sensor / controller,grip_loss,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=168.0,collision_in_part,168.0
+LP5-042-protective_stop,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=168.0,collision_in_part,168.0
+LP5-043-grip_loss,1996-01-01T00:00:00Z,LP5,Sensor / controller,grip_loss,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=93.0,collision_in_part,93.0
+LP5-043-protective_stop,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=93.0,collision_in_part,93.0
+LP5-044-grip_loss,1996-01-01T00:00:00Z,LP5,Sensor / controller,grip_loss,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=143.0,collision_in_part,143.0
+LP5-044-protective_stop,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=143.0,collision_in_part,143.0
+LP5-045-protective_stop,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,yes,Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=109.0,collision_in_tool,109.0
+LP5-045-payload_mismatch,1996-01-01T00:00:00Z,LP5,Sensor / controller,payload_mismatch,yes,Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=109.0,collision_in_tool,109.0
+LP5-046-grip_loss,1996-01-01T00:00:00Z,LP5,Sensor / controller,grip_loss,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=109.0,collision_in_part,109.0
+LP5-046-protective_stop,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=109.0,collision_in_part,109.0
+LP5-047-grip_loss,1996-01-01T00:00:00Z,LP5,Sensor / controller,grip_loss,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=130.0,collision_in_part,130.0
+LP5-047-protective_stop,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=130.0,collision_in_part,130.0
+LP5-048,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,no,UCI LP5 class=normal (normal/ok),normal,29.0
+LP5-049,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,no,UCI LP5 class=normal (normal/ok),normal,28.0
+LP5-050,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,no,UCI LP5 class=normal (normal/ok),normal,41.0
+LP5-051,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,no,UCI LP5 class=normal (normal/ok),normal,32.0
+LP5-052,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,no,UCI LP5 class=normal (normal/ok),normal,38.0
+LP5-053,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,no,UCI LP5 class=normal (normal/ok),normal,32.0
+LP5-054,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,no,UCI LP5 class=normal (normal/ok),normal,36.0
+LP5-055,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,no,UCI LP5 class=normal (normal/ok),normal,33.0
+LP5-056,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,no,UCI LP5 class=normal (normal/ok),normal,32.0
+LP5-057,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,no,UCI LP5 class=normal (normal/ok),normal,32.0
+LP5-058,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,no,UCI LP5 class=normal (normal/ok),normal,28.0
+LP5-059,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,no,UCI LP5 class=normal (normal/ok),normal,28.0
+LP5-060,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,no,UCI LP5 class=normal (normal/ok),normal,27.0
+LP5-061,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,no,UCI LP5 class=normal (normal/ok),normal,27.0
+LP5-062,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,no,UCI LP5 class=normal (normal/ok),normal,27.0
+LP5-063,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,no,UCI LP5 class=normal (normal/ok),normal,29.0
+LP5-064,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,no,UCI LP5 class=normal (normal/ok),normal,26.0
+LP5-065,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,no,UCI LP5 class=normal (normal/ok),normal,29.0
+LP5-066,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,no,UCI LP5 class=normal (normal/ok),normal,22.0
+LP5-067,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,no,UCI LP5 class=normal (normal/ok),normal,18.0
+LP5-068,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,no,UCI LP5 class=normal (normal/ok),normal,17.0
+LP5-069,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,no,UCI LP5 class=normal (normal/ok),normal,14.0
+LP5-070,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,no,UCI LP5 class=normal (normal/ok),normal,16.0
+LP5-071,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,no,UCI LP5 class=normal (normal/ok),normal,17.0
+LP5-072-grip_loss,1996-01-01T00:00:00Z,LP5,Sensor / controller,grip_loss,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=123.0,collision_in_part,123.0
+LP5-072-protective_stop,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=123.0,collision_in_part,123.0
+LP5-073-grip_loss,1996-01-01T00:00:00Z,LP5,Sensor / controller,grip_loss,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=100.0,collision_in_part,100.0
+LP5-073-protective_stop,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=100.0,collision_in_part,100.0
+LP5-074-grip_loss,1996-01-01T00:00:00Z,LP5,Sensor / controller,grip_loss,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=49.0,collision_in_part,49.0
+LP5-074-protective_stop,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=49.0,collision_in_part,49.0
+LP5-075-grip_loss,1996-01-01T00:00:00Z,LP5,Sensor / controller,grip_loss,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=26.0,collision_in_part,26.0
+LP5-075-protective_stop,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=26.0,collision_in_part,26.0
+LP5-076-grip_loss,1996-01-01T00:00:00Z,LP5,Sensor / controller,grip_loss,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=36.0,collision_in_part,36.0
+LP5-076-protective_stop,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=36.0,collision_in_part,36.0
+LP5-077-grip_loss,1996-01-01T00:00:00Z,LP5,Sensor / controller,grip_loss,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=20.0,collision_in_part,20.0
+LP5-077-protective_stop,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=20.0,collision_in_part,20.0
+LP5-078-grip_loss,1996-01-01T00:00:00Z,LP5,Sensor / controller,grip_loss,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=36.0,collision_in_part,36.0
+LP5-078-protective_stop,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=36.0,collision_in_part,36.0
+LP5-079-grip_loss,1996-01-01T00:00:00Z,LP5,Sensor / controller,grip_loss,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=23.0,collision_in_part,23.0
+LP5-079-protective_stop,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=23.0,collision_in_part,23.0
+LP5-080-grip_loss,1996-01-01T00:00:00Z,LP5,Sensor / controller,grip_loss,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=29.0,collision_in_part,29.0
+LP5-080-protective_stop,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=29.0,collision_in_part,29.0
+LP5-081-grip_loss,1996-01-01T00:00:00Z,LP5,Sensor / controller,grip_loss,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=59.0,collision_in_part,59.0
+LP5-081-protective_stop,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=59.0,collision_in_part,59.0
+LP5-082-grip_loss,1996-01-01T00:00:00Z,LP5,Sensor / controller,grip_loss,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=240.0,collision_in_part,240.0
+LP5-082-protective_stop,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=240.0,collision_in_part,240.0
+LP5-083-grip_loss,1996-01-01T00:00:00Z,LP5,Sensor / controller,grip_loss,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=91.0,collision_in_part,91.0
+LP5-083-protective_stop,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=91.0,collision_in_part,91.0
+LP5-084-grip_loss,1996-01-01T00:00:00Z,LP5,Sensor / controller,grip_loss,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=31.0,collision_in_part,31.0
+LP5-084-protective_stop,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=31.0,collision_in_part,31.0
+LP5-085-grip_loss,1996-01-01T00:00:00Z,LP5,Sensor / controller,grip_loss,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=55.0,collision_in_part,55.0
+LP5-085-protective_stop,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=55.0,collision_in_part,55.0
+LP5-086-grip_loss,1996-01-01T00:00:00Z,LP5,Sensor / controller,grip_loss,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=27.0,collision_in_part,27.0
+LP5-086-protective_stop,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=27.0,collision_in_part,27.0
+LP5-088-grip_loss,1996-01-01T00:00:00Z,LP5,Sensor / controller,grip_loss,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=32.0,collision_in_part,32.0
+LP5-088-protective_stop,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=32.0,collision_in_part,32.0
+LP5-089-grip_loss,1996-01-01T00:00:00Z,LP5,Sensor / controller,grip_loss,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=24.0,collision_in_part,24.0
+LP5-089-protective_stop,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=24.0,collision_in_part,24.0
+LP5-090-grip_loss,1996-01-01T00:00:00Z,LP5,Sensor / controller,grip_loss,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=165.0,collision_in_part,165.0
+LP5-090-protective_stop,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=165.0,collision_in_part,165.0
+LP5-091-grip_loss,1996-01-01T00:00:00Z,LP5,Sensor / controller,grip_loss,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=39.0,collision_in_part,39.0
+LP5-091-protective_stop,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=39.0,collision_in_part,39.0
+LP5-093-protective_stop,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,yes,Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=79.0,collision_in_tool,79.0
+LP5-093-payload_mismatch,1996-01-01T00:00:00Z,LP5,Sensor / controller,payload_mismatch,yes,Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=79.0,collision_in_tool,79.0
+LP5-094-protective_stop,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,yes,Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=14.0,collision_in_tool,14.0
+LP5-094-payload_mismatch,1996-01-01T00:00:00Z,LP5,Sensor / controller,payload_mismatch,yes,Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=14.0,collision_in_tool,14.0
+LP5-095-protective_stop,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,yes,Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=30.0,collision_in_tool,30.0
+LP5-095-payload_mismatch,1996-01-01T00:00:00Z,LP5,Sensor / controller,payload_mismatch,yes,Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=30.0,collision_in_tool,30.0
+LP5-096-protective_stop,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,yes,Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=42.0,collision_in_tool,42.0
+LP5-096-payload_mismatch,1996-01-01T00:00:00Z,LP5,Sensor / controller,payload_mismatch,yes,Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=42.0,collision_in_tool,42.0
+LP5-097-protective_stop,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,yes,Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=74.0,collision_in_tool,74.0
+LP5-097-payload_mismatch,1996-01-01T00:00:00Z,LP5,Sensor / controller,payload_mismatch,yes,Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=74.0,collision_in_tool,74.0
+LP5-098-protective_stop,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,yes,Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=34.0,collision_in_tool,34.0
+LP5-098-payload_mismatch,1996-01-01T00:00:00Z,LP5,Sensor / controller,payload_mismatch,yes,Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=34.0,collision_in_tool,34.0
+LP5-099-protective_stop,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,yes,Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=188.0,collision_in_tool,188.0
+LP5-099-payload_mismatch,1996-01-01T00:00:00Z,LP5,Sensor / controller,payload_mismatch,yes,Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=188.0,collision_in_tool,188.0
+LP5-100-protective_stop,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,yes,Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=116.0,collision_in_tool,116.0
+LP5-100-payload_mismatch,1996-01-01T00:00:00Z,LP5,Sensor / controller,payload_mismatch,yes,Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=116.0,collision_in_tool,116.0
+LP5-101-joint_friction,1996-01-01T00:00:00Z,LP5,Sensor / controller,joint_friction,yes,Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=2957.0,bottom_obstruction,2957.0
+LP5-101-joint_noise,1996-01-01T00:00:00Z,LP5,Sensor / controller,joint_noise,yes,Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=2957.0,bottom_obstruction,2957.0
+LP5-101-position_drift,1996-01-01T00:00:00Z,LP5,Sensor / controller,position_drift,yes,Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=2957.0,bottom_obstruction,2957.0
+LP5-102-joint_droop,1996-01-01T00:00:00Z,LP5,Sensor / controller,joint_droop,yes,Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=1175.0,bottom_collision,1175.0
+LP5-102-brake_alarm,1996-01-01T00:00:00Z,LP5,Sensor / controller,brake_alarm,yes,Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=1175.0,bottom_collision,1175.0
+LP5-103-joint_friction,1996-01-01T00:00:00Z,LP5,Sensor / controller,joint_friction,yes,Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=3161.0,bottom_obstruction,3161.0
+LP5-103-joint_noise,1996-01-01T00:00:00Z,LP5,Sensor / controller,joint_noise,yes,Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=3161.0,bottom_obstruction,3161.0
+LP5-103-position_drift,1996-01-01T00:00:00Z,LP5,Sensor / controller,position_drift,yes,Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=3161.0,bottom_obstruction,3161.0
+LP5-104-joint_friction,1996-01-01T00:00:00Z,LP5,Sensor / controller,joint_friction,yes,Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=2233.0,bottom_obstruction,2233.0
+LP5-104-joint_noise,1996-01-01T00:00:00Z,LP5,Sensor / controller,joint_noise,yes,Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=2233.0,bottom_obstruction,2233.0
+LP5-104-position_drift,1996-01-01T00:00:00Z,LP5,Sensor / controller,position_drift,yes,Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=2233.0,bottom_obstruction,2233.0
+LP5-105-joint_friction,1996-01-01T00:00:00Z,LP5,Sensor / controller,joint_friction,yes,Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=1384.0,bottom_obstruction,1384.0
+LP5-105-joint_noise,1996-01-01T00:00:00Z,LP5,Sensor / controller,joint_noise,yes,Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=1384.0,bottom_obstruction,1384.0
+LP5-105-position_drift,1996-01-01T00:00:00Z,LP5,Sensor / controller,position_drift,yes,Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=1384.0,bottom_obstruction,1384.0
+LP5-106-joint_friction,1996-01-01T00:00:00Z,LP5,Sensor / controller,joint_friction,yes,Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=2966.0,bottom_obstruction,2966.0
+LP5-106-joint_noise,1996-01-01T00:00:00Z,LP5,Sensor / controller,joint_noise,yes,Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=2966.0,bottom_obstruction,2966.0
+LP5-106-position_drift,1996-01-01T00:00:00Z,LP5,Sensor / controller,position_drift,yes,Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=2966.0,bottom_obstruction,2966.0
+LP5-107-joint_droop,1996-01-01T00:00:00Z,LP5,Sensor / controller,joint_droop,yes,Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=2112.0,bottom_collision,2112.0
+LP5-107-brake_alarm,1996-01-01T00:00:00Z,LP5,Sensor / controller,brake_alarm,yes,Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=2112.0,bottom_collision,2112.0
+LP5-108-joint_droop,1996-01-01T00:00:00Z,LP5,Sensor / controller,joint_droop,yes,Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=1387.0,bottom_collision,1387.0
+LP5-108-brake_alarm,1996-01-01T00:00:00Z,LP5,Sensor / controller,brake_alarm,yes,Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=1387.0,bottom_collision,1387.0
+LP5-109-joint_droop,1996-01-01T00:00:00Z,LP5,Sensor / controller,joint_droop,yes,Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=655.0,bottom_collision,655.0
+LP5-109-brake_alarm,1996-01-01T00:00:00Z,LP5,Sensor / controller,brake_alarm,yes,Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=655.0,bottom_collision,655.0
+LP5-110-joint_friction,1996-01-01T00:00:00Z,LP5,Sensor / controller,joint_friction,yes,Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=3348.0,bottom_obstruction,3348.0
+LP5-110-joint_noise,1996-01-01T00:00:00Z,LP5,Sensor / controller,joint_noise,yes,Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=3348.0,bottom_obstruction,3348.0
+LP5-110-position_drift,1996-01-01T00:00:00Z,LP5,Sensor / controller,position_drift,yes,Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=3348.0,bottom_obstruction,3348.0
+LP5-111-joint_friction,1996-01-01T00:00:00Z,LP5,Sensor / controller,joint_friction,yes,Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=2305.0,bottom_obstruction,2305.0
+LP5-111-joint_noise,1996-01-01T00:00:00Z,LP5,Sensor / controller,joint_noise,yes,Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=2305.0,bottom_obstruction,2305.0
+LP5-111-position_drift,1996-01-01T00:00:00Z,LP5,Sensor / controller,position_drift,yes,Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=2305.0,bottom_obstruction,2305.0
+LP5-112-joint_friction,1996-01-01T00:00:00Z,LP5,Sensor / controller,joint_friction,yes,Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=3557.0,bottom_obstruction,3557.0
+LP5-112-joint_noise,1996-01-01T00:00:00Z,LP5,Sensor / controller,joint_noise,yes,Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=3557.0,bottom_obstruction,3557.0
+LP5-112-position_drift,1996-01-01T00:00:00Z,LP5,Sensor / controller,position_drift,yes,Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=3557.0,bottom_obstruction,3557.0
+LP5-114-joint_friction,1996-01-01T00:00:00Z,LP5,Sensor / controller,joint_friction,yes,Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=169.0,bottom_obstruction,169.0
+LP5-114-joint_noise,1996-01-01T00:00:00Z,LP5,Sensor / controller,joint_noise,yes,Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=169.0,bottom_obstruction,169.0
+LP5-114-position_drift,1996-01-01T00:00:00Z,LP5,Sensor / controller,position_drift,yes,Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=169.0,bottom_obstruction,169.0
+LP5-115-joint_droop,1996-01-01T00:00:00Z,LP5,Sensor / controller,joint_droop,yes,Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=406.0,bottom_collision,406.0
+LP5-115-brake_alarm,1996-01-01T00:00:00Z,LP5,Sensor / controller,brake_alarm,yes,Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=406.0,bottom_collision,406.0
+LP5-116-joint_friction,1996-01-01T00:00:00Z,LP5,Sensor / controller,joint_friction,yes,Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=3235.0,bottom_obstruction,3235.0
+LP5-116-joint_noise,1996-01-01T00:00:00Z,LP5,Sensor / controller,joint_noise,yes,Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=3235.0,bottom_obstruction,3235.0
+LP5-116-position_drift,1996-01-01T00:00:00Z,LP5,Sensor / controller,position_drift,yes,Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=3235.0,bottom_obstruction,3235.0
+LP5-117-joint_droop,1996-01-01T00:00:00Z,LP5,Sensor / controller,joint_droop,yes,Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=54.0,bottom_collision,54.0
+LP5-117-brake_alarm,1996-01-01T00:00:00Z,LP5,Sensor / controller,brake_alarm,yes,Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=54.0,bottom_collision,54.0
+LP5-118-joint_friction,1996-01-01T00:00:00Z,LP5,Sensor / controller,joint_friction,yes,Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=2757.0,bottom_obstruction,2757.0
+LP5-118-joint_noise,1996-01-01T00:00:00Z,LP5,Sensor / controller,joint_noise,yes,Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=2757.0,bottom_obstruction,2757.0
+LP5-118-position_drift,1996-01-01T00:00:00Z,LP5,Sensor / controller,position_drift,yes,Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=2757.0,bottom_obstruction,2757.0
+LP5-119-joint_droop,1996-01-01T00:00:00Z,LP5,Sensor / controller,joint_droop,yes,Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=201.0,bottom_collision,201.0
+LP5-119-brake_alarm,1996-01-01T00:00:00Z,LP5,Sensor / controller,brake_alarm,yes,Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=201.0,bottom_collision,201.0
+LP5-120-joint_friction,1996-01-01T00:00:00Z,LP5,Sensor / controller,joint_friction,yes,Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=3451.0,bottom_obstruction,3451.0
+LP5-120-joint_noise,1996-01-01T00:00:00Z,LP5,Sensor / controller,joint_noise,yes,Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=3451.0,bottom_obstruction,3451.0
+LP5-120-position_drift,1996-01-01T00:00:00Z,LP5,Sensor / controller,position_drift,yes,Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=3451.0,bottom_obstruction,3451.0
+LP5-121-joint_friction,1996-01-01T00:00:00Z,LP5,Sensor / controller,joint_friction,yes,Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=526.0,bottom_obstruction,526.0
+LP5-121-joint_noise,1996-01-01T00:00:00Z,LP5,Sensor / controller,joint_noise,yes,Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=526.0,bottom_obstruction,526.0
+LP5-121-position_drift,1996-01-01T00:00:00Z,LP5,Sensor / controller,position_drift,yes,Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=526.0,bottom_obstruction,526.0
+LP5-122-joint_droop,1996-01-01T00:00:00Z,LP5,Sensor / controller,joint_droop,yes,Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=122.0,bottom_collision,122.0
+LP5-122-brake_alarm,1996-01-01T00:00:00Z,LP5,Sensor / controller,brake_alarm,yes,Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=122.0,bottom_collision,122.0
+LP5-123-joint_friction,1996-01-01T00:00:00Z,LP5,Sensor / controller,joint_friction,yes,Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=3277.0,bottom_obstruction,3277.0
+LP5-123-joint_noise,1996-01-01T00:00:00Z,LP5,Sensor / controller,joint_noise,yes,Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=3277.0,bottom_obstruction,3277.0
+LP5-123-position_drift,1996-01-01T00:00:00Z,LP5,Sensor / controller,position_drift,yes,Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=3277.0,bottom_obstruction,3277.0
+LP5-124-joint_droop,1996-01-01T00:00:00Z,LP5,Sensor / controller,joint_droop,yes,Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=19.0,bottom_collision,19.0
+LP5-124-brake_alarm,1996-01-01T00:00:00Z,LP5,Sensor / controller,brake_alarm,yes,Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=19.0,bottom_collision,19.0
+LP5-125-joint_friction,1996-01-01T00:00:00Z,LP5,Sensor / controller,joint_friction,yes,Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=2325.0,bottom_obstruction,2325.0
+LP5-125-joint_noise,1996-01-01T00:00:00Z,LP5,Sensor / controller,joint_noise,yes,Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=2325.0,bottom_obstruction,2325.0
+LP5-125-position_drift,1996-01-01T00:00:00Z,LP5,Sensor / controller,position_drift,yes,Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=2325.0,bottom_obstruction,2325.0
+LP5-126-joint_droop,1996-01-01T00:00:00Z,LP5,Sensor / controller,joint_droop,yes,Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=73.0,bottom_collision,73.0
+LP5-126-brake_alarm,1996-01-01T00:00:00Z,LP5,Sensor / controller,brake_alarm,yes,Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=73.0,bottom_collision,73.0
+LP5-127-joint_friction,1996-01-01T00:00:00Z,LP5,Sensor / controller,joint_friction,yes,Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=2992.0,bottom_obstruction,2992.0
+LP5-127-joint_noise,1996-01-01T00:00:00Z,LP5,Sensor / controller,joint_noise,yes,Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=2992.0,bottom_obstruction,2992.0
+LP5-127-position_drift,1996-01-01T00:00:00Z,LP5,Sensor / controller,position_drift,yes,Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=2992.0,bottom_obstruction,2992.0
+LP5-128-joint_droop,1996-01-01T00:00:00Z,LP5,Sensor / controller,joint_droop,yes,Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=931.0,bottom_collision,931.0
+LP5-128-brake_alarm,1996-01-01T00:00:00Z,LP5,Sensor / controller,brake_alarm,yes,Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=931.0,bottom_collision,931.0
+LP5-129-joint_droop,1996-01-01T00:00:00Z,LP5,Sensor / controller,joint_droop,yes,Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=701.0,bottom_collision,701.0
+LP5-129-brake_alarm,1996-01-01T00:00:00Z,LP5,Sensor / controller,brake_alarm,yes,Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=701.0,bottom_collision,701.0
+LP5-130-joint_droop,1996-01-01T00:00:00Z,LP5,Sensor / controller,joint_droop,yes,Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=191.0,bottom_collision,191.0
+LP5-130-brake_alarm,1996-01-01T00:00:00Z,LP5,Sensor / controller,brake_alarm,yes,Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=191.0,bottom_collision,191.0
+LP5-131-joint_droop,1996-01-01T00:00:00Z,LP5,Sensor / controller,joint_droop,yes,Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=141.0,bottom_collision,141.0
+LP5-131-brake_alarm,1996-01-01T00:00:00Z,LP5,Sensor / controller,brake_alarm,yes,Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=141.0,bottom_collision,141.0
+LP5-132-joint_friction,1996-01-01T00:00:00Z,LP5,Sensor / controller,joint_friction,yes,Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=2303.0,bottom_obstruction,2303.0
+LP5-132-joint_noise,1996-01-01T00:00:00Z,LP5,Sensor / controller,joint_noise,yes,Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=2303.0,bottom_obstruction,2303.0
+LP5-132-position_drift,1996-01-01T00:00:00Z,LP5,Sensor / controller,position_drift,yes,Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=2303.0,bottom_obstruction,2303.0
+LP5-133-joint_friction,1996-01-01T00:00:00Z,LP5,Sensor / controller,joint_friction,yes,Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=2460.0,bottom_obstruction,2460.0
+LP5-133-joint_noise,1996-01-01T00:00:00Z,LP5,Sensor / controller,joint_noise,yes,Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=2460.0,bottom_obstruction,2460.0
+LP5-133-position_drift,1996-01-01T00:00:00Z,LP5,Sensor / controller,position_drift,yes,Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=2460.0,bottom_obstruction,2460.0
+LP5-134-joint_friction,1996-01-01T00:00:00Z,LP5,Sensor / controller,joint_friction,yes,Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=2950.0,bottom_obstruction,2950.0
+LP5-134-joint_noise,1996-01-01T00:00:00Z,LP5,Sensor / controller,joint_noise,yes,Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=2950.0,bottom_obstruction,2950.0
+LP5-134-position_drift,1996-01-01T00:00:00Z,LP5,Sensor / controller,position_drift,yes,Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=2950.0,bottom_obstruction,2950.0
+LP5-135-joint_droop,1996-01-01T00:00:00Z,LP5,Sensor / controller,joint_droop,yes,Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=58.0,bottom_collision,58.0
+LP5-135-brake_alarm,1996-01-01T00:00:00Z,LP5,Sensor / controller,brake_alarm,yes,Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=58.0,bottom_collision,58.0
+LP5-136-joint_droop,1996-01-01T00:00:00Z,LP5,Sensor / controller,joint_droop,yes,Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=62.0,bottom_collision,62.0
+LP5-136-brake_alarm,1996-01-01T00:00:00Z,LP5,Sensor / controller,brake_alarm,yes,Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=62.0,bottom_collision,62.0
+LP5-137-joint_droop,1996-01-01T00:00:00Z,LP5,Sensor / controller,joint_droop,yes,Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=140.0,bottom_collision,140.0
+LP5-137-brake_alarm,1996-01-01T00:00:00Z,LP5,Sensor / controller,brake_alarm,yes,Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=140.0,bottom_collision,140.0
+LP5-138-joint_droop,1996-01-01T00:00:00Z,LP5,Sensor / controller,joint_droop,yes,Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=45.0,bottom_collision,45.0
+LP5-138-brake_alarm,1996-01-01T00:00:00Z,LP5,Sensor / controller,brake_alarm,yes,Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=45.0,bottom_collision,45.0
+LP5-139-joint_droop,1996-01-01T00:00:00Z,LP5,Sensor / controller,joint_droop,yes,Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=185.0,bottom_collision,185.0
+LP5-139-brake_alarm,1996-01-01T00:00:00Z,LP5,Sensor / controller,brake_alarm,yes,Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=185.0,bottom_collision,185.0
+LP5-140-joint_droop,1996-01-01T00:00:00Z,LP5,Sensor / controller,joint_droop,yes,Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=45.0,bottom_collision,45.0
+LP5-140-brake_alarm,1996-01-01T00:00:00Z,LP5,Sensor / controller,brake_alarm,yes,Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=45.0,bottom_collision,45.0
+LP5-141-joint_droop,1996-01-01T00:00:00Z,LP5,Sensor / controller,joint_droop,yes,Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=138.0,bottom_collision,138.0
+LP5-141-brake_alarm,1996-01-01T00:00:00Z,LP5,Sensor / controller,brake_alarm,yes,Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=138.0,bottom_collision,138.0
+LP5-142-joint_droop,1996-01-01T00:00:00Z,LP5,Sensor / controller,joint_droop,yes,Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=49.0,bottom_collision,49.0
+LP5-142-brake_alarm,1996-01-01T00:00:00Z,LP5,Sensor / controller,brake_alarm,yes,Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=49.0,bottom_collision,49.0
+LP5-143-joint_droop,1996-01-01T00:00:00Z,LP5,Sensor / controller,joint_droop,yes,Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=58.0,bottom_collision,58.0
+LP5-143-brake_alarm,1996-01-01T00:00:00Z,LP5,Sensor / controller,brake_alarm,yes,Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=58.0,bottom_collision,58.0
+LP5-144-joint_friction,1996-01-01T00:00:00Z,LP5,Sensor / controller,joint_friction,yes,Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=1615.0,bottom_obstruction,1615.0
+LP5-144-joint_noise,1996-01-01T00:00:00Z,LP5,Sensor / controller,joint_noise,yes,Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=1615.0,bottom_obstruction,1615.0
+LP5-144-position_drift,1996-01-01T00:00:00Z,LP5,Sensor / controller,position_drift,yes,Mapped from UCI LP5 failure_class=bottom_obstruction; force_absmax=1615.0,bottom_obstruction,1615.0
+LP5-145-joint_droop,1996-01-01T00:00:00Z,LP5,Sensor / controller,joint_droop,yes,Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=38.0,bottom_collision,38.0
+LP5-145-brake_alarm,1996-01-01T00:00:00Z,LP5,Sensor / controller,brake_alarm,yes,Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=38.0,bottom_collision,38.0
+LP5-146-joint_droop,1996-01-01T00:00:00Z,LP5,Sensor / controller,joint_droop,yes,Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=496.0,bottom_collision,496.0
+LP5-146-brake_alarm,1996-01-01T00:00:00Z,LP5,Sensor / controller,brake_alarm,yes,Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=496.0,bottom_collision,496.0
+LP5-147-joint_droop,1996-01-01T00:00:00Z,LP5,Sensor / controller,joint_droop,yes,Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=182.0,bottom_collision,182.0
+LP5-147-brake_alarm,1996-01-01T00:00:00Z,LP5,Sensor / controller,brake_alarm,yes,Mapped from UCI LP5 failure_class=bottom_collision; force_absmax=182.0,bottom_collision,182.0
+LP5-148-grip_loss,1996-01-01T00:00:00Z,LP5,Sensor / controller,grip_loss,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=27.0,collision_in_part,27.0
+LP5-148-protective_stop,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=27.0,collision_in_part,27.0
+LP5-149-grip_loss,1996-01-01T00:00:00Z,LP5,Sensor / controller,grip_loss,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=55.0,collision_in_part,55.0
+LP5-149-protective_stop,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=55.0,collision_in_part,55.0
+LP5-150-grip_loss,1996-01-01T00:00:00Z,LP5,Sensor / controller,grip_loss,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=21.0,collision_in_part,21.0
+LP5-150-protective_stop,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=21.0,collision_in_part,21.0
+LP5-151-grip_loss,1996-01-01T00:00:00Z,LP5,Sensor / controller,grip_loss,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=17.0,collision_in_part,17.0
+LP5-151-protective_stop,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=17.0,collision_in_part,17.0
+LP5-152-grip_loss,1996-01-01T00:00:00Z,LP5,Sensor / controller,grip_loss,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=120.0,collision_in_part,120.0
+LP5-152-protective_stop,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=120.0,collision_in_part,120.0
+LP5-153-grip_loss,1996-01-01T00:00:00Z,LP5,Sensor / controller,grip_loss,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=17.0,collision_in_part,17.0
+LP5-153-protective_stop,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=17.0,collision_in_part,17.0
+LP5-154-grip_loss,1996-01-01T00:00:00Z,LP5,Sensor / controller,grip_loss,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=57.0,collision_in_part,57.0
+LP5-154-protective_stop,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=57.0,collision_in_part,57.0
+LP5-155-grip_loss,1996-01-01T00:00:00Z,LP5,Sensor / controller,grip_loss,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=48.0,collision_in_part,48.0
+LP5-155-protective_stop,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=48.0,collision_in_part,48.0
+LP5-156-grip_loss,1996-01-01T00:00:00Z,LP5,Sensor / controller,grip_loss,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=22.0,collision_in_part,22.0
+LP5-156-protective_stop,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=22.0,collision_in_part,22.0
+LP5-157-grip_loss,1996-01-01T00:00:00Z,LP5,Sensor / controller,grip_loss,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=123.0,collision_in_part,123.0
+LP5-157-protective_stop,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=123.0,collision_in_part,123.0
+LP5-158-grip_loss,1996-01-01T00:00:00Z,LP5,Sensor / controller,grip_loss,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=29.0,collision_in_part,29.0
+LP5-158-protective_stop,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=29.0,collision_in_part,29.0
+LP5-159-grip_loss,1996-01-01T00:00:00Z,LP5,Sensor / controller,grip_loss,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=150.0,collision_in_part,150.0
+LP5-159-protective_stop,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,yes,Mapped from UCI LP5 failure_class=collision_in_part; force_absmax=150.0,collision_in_part,150.0
+LP5-160-protective_stop,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,yes,Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=43.0,collision_in_tool,43.0
+LP5-160-payload_mismatch,1996-01-01T00:00:00Z,LP5,Sensor / controller,payload_mismatch,yes,Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=43.0,collision_in_tool,43.0
+LP5-161-protective_stop,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,yes,Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=36.0,collision_in_tool,36.0
+LP5-161-payload_mismatch,1996-01-01T00:00:00Z,LP5,Sensor / controller,payload_mismatch,yes,Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=36.0,collision_in_tool,36.0
+LP5-162-protective_stop,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,yes,Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=17.0,collision_in_tool,17.0
+LP5-162-payload_mismatch,1996-01-01T00:00:00Z,LP5,Sensor / controller,payload_mismatch,yes,Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=17.0,collision_in_tool,17.0
+LP5-163-protective_stop,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,yes,Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=41.0,collision_in_tool,41.0
+LP5-163-payload_mismatch,1996-01-01T00:00:00Z,LP5,Sensor / controller,payload_mismatch,yes,Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=41.0,collision_in_tool,41.0
+LP5-164-protective_stop,1996-01-01T00:00:00Z,LP5,Sensor / controller,protective_stop,yes,Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=15.0,collision_in_tool,15.0
+LP5-164-payload_mismatch,1996-01-01T00:00:00Z,LP5,Sensor / controller,payload_mismatch,yes,Mapped from UCI LP5 failure_class=collision_in_tool; force_absmax=15.0,collision_in_tool,15.0
